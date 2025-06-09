@@ -1,10 +1,18 @@
 <h1><b>🛍️ Tangle Teezer - E-commerce Website Clone</b></h1>
 <p>A sleek and modern e-commerce website clone of <b>Tangle Teezer</b>, crafted using <b>HTML</b>, <b>CSS</b>, <b>Bootstrap 5</b>, and <b>JavaScript</b>. This project integrates essential online shopping functionalities such as product rendering via <b>JSON</b>, sorting, filtering, detailed product views, and authentication-based cart access.</p>
 
-<h1><b>🖼️ Website Preview Images</b></h1> 
-<p><b>1️⃣ Home & Product Listing Page</b></p> <img src="Assets/demo_img-1.png" alt="Home Page Screenshot" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);"> <p>This showcases the homepage featuring a sleek, modern layout built with Bootstrap 5. It displays a grid of product cards dynamically loaded from a JSON data source. Users can easily sort and filter products by categories, price, and ratings with intuitive UI controls visible on the side panel.</p> <p><b>2️⃣ Product Details & Cart Access</b></p>
+<p>🌐 <b>Live Demo:</b> <a href="https://your-live-website-link.com" target="_blank" rel="noopener noreferrer">https://your-live-website-link.com</a></p>
 
-<img src="Assets/demo_img-2.png" alt="Product Detail Page Screenshot" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);"> <p>This image displays the product detail page where users can view a large product image, detailed description, price, and customer reviews. The “Add to Cart” button is prominently placed but only becomes active once the user is logged in, enforcing authentication. The cart icon in the navigation bar also reflects this behavior by prompting login/signup if the cart is accessed without authentication, ensuring a secure shopping flow.</p> <hr>
+<h1><b>🖼️ Website Preview Images</b></h1> 
+<p><b>1️⃣ Home & Product Listing Page</b></p> 
+<img src="Assets/demo_img-1.png" alt="Home Page Screenshot" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);"> 
+<p>This showcases the homepage featuring a sleek, modern layout built with Bootstrap 5. It displays a grid of product cards dynamically loaded from a JSON data source. Users can easily sort and filter products by categories, price, and ratings with intuitive UI controls visible on the side panel.</p>
+
+<p><b>2️⃣ Product Details & Cart Access</b></p>
+<img src="Assets/demo_img-2.png" alt="Product Detail Page Screenshot" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);"> 
+<p>This image displays the product detail page where users can view a large product image, detailed description, price, and customer reviews. The “Add to Cart” button is prominently placed but only becomes active once the user is logged in, enforcing authentication. The cart icon in the navigation bar also reflects this behavior by prompting login/signup if the cart is accessed without authentication, ensuring a secure shopping flow.</p>
+
+<hr>
 
 <p><b>🚀 Features</b></p>
 <ul>
@@ -71,4 +79,4 @@ TANGLE-TEEZER/
 
 <hr>
 
-<p><i>Made with ❤️ by Rohit Pakhre</i></p>
+<p><i>Made by Rohit Pakhre.</i></p>
