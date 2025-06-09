@@ -1,0 +1,1430 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "url": "https://tangleteezer.com/products/wide-tooth-comb",
+      "badge": "detangling",
+      "name": "Wide Tooth Comb",
+      "price": "14.00",
+      "compare_at_price": null,
+      "sales_count": 1500,
+      "category": "detangling",
+      "hair_type": [
+        "thick",
+        "curly",
+        "textured"
+      ],
+      "description": "The Tangle Teezer Wide Tooth Comb is designed for effortless detangling of wet or dry hair, particularly suited for thick, curly, or textured hair types. Its wide, sturdy teeth glide through knots without pulling, reducing breakage and ensuring a smooth, pain-free experience. Lightweight at 66g, this comb is perfect for shower use or on-the-go styling, available in vibrant Purple Passion and Mango Pink shades.",
+      "variants": [
+        {
+          "title": "Purple Passion",
+          "color": "purple",
+          "size": "large",
+          "price": 1400,
+          "weight": 66,
+          "sku": "30401-002-4",
+          "barcode": "5060630049874",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/WTC_0007s_0000_Lilac_WTD_HeroImage.jpg?v=1718985480"
+        },
+        {
+          "title": "Mango Pink",
+          "color": "pink",
+          "size": "large",
+          "price": 1400,
+          "weight": 66,
+          "sku": "30401-003-4",
+          "barcode": "5060926680545",
+          "available": true,
+          "inventory_quantity": 80,
+          "image": "https://tangleteezer.com/cdn/shop/files/Peach_Pink_WTD_Hero_Shot.jpg?v=1741960862"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/WTC_0007s_0000_Lilac_WTD_HeroImage.jpg?v=1718985480",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Peach_Pink_WTD_Hero_Shot.jpg?v=1741960862",
+      "age": "new",
+      "best_selling": true,
+      "colors": [
+        "purple",
+        "pink"
+      ]
+    },
+    {
+      "id": 2,
+      "url": "https://tangleteezer.com/products/the-original",
+      "badge": "detangling",
+      "name": "The Original",
+      "price": "15.00",
+      "compare_at_price": null,
+      "sales_count": 2000,
+      "category": "detangling",
+      "hair_type": [
+        "all"
+      ],
+      "description": "The Original Tangle Teezer is a game-changer in haircare, designed to detangle all hair types with ease. Its unique two-tiered teeth system gently removes knots while minimizing breakage and damage, leaving hair smooth and shiny. Lightweight at 73g, this iconic brush is perfect for everyday use, available in a range of vibrant colors.",
+      "variants": [
+        {
+          "title": "Pink Fizz",
+          "color": "pink",
+          "size": "medium",
+          "price": 1500,
+          "weight": 73,
+          "sku": "10101-002-1",
+          "barcode": "5060173370008",
+          "available": true,
+          "inventory_quantity": 120,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0025_OriginalPinkFizz1.jpg?v=1706469668"
+        },
+        {
+          "title": "Pink Sky",
+          "color": "pink",
+          "size": "medium",
+          "price": 1500,
+          "weight": 73,
+          "sku": "10101-022-1",
+          "barcode": "5060926680736",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0020_OriginalPinkSky1.jpg?v=1706469668"
+        },
+        {
+          "title": "Lilac Cloud",
+          "color": "purple",
+          "size": "medium",
+          "price": 1500,
+          "weight": 73,
+          "sku": "10101-027-1",
+          "barcode": "5060926681481",
+          "available": true,
+          "inventory_quantity": 90,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_LilacCloud_Hero.jpg?v=1706469668"
+        },
+        {
+          "title": "Panther Black",
+          "color": "black",
+          "size": "medium",
+          "price": 1500,
+          "weight": 73,
+          "sku": "10101-001-1",
+          "barcode": "5060173370015",
+          "available": true,
+          "inventory_quantity": 150,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_PantherBlack_Hero.jpg?v=1706469668"
+        },
+        {
+          "title": "Salmon Pink & Hyper Yellow",
+          "color": "pink",
+          "size": "medium",
+          "price": 1500,
+          "weight": 73,
+          "sku": "10101-029-1",
+          "barcode": "5060926684680",
+          "available": true,
+          "inventory_quantity": 110,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_SalmonPinkYellow_Hero.jpg?v=1706469668"
+        },
+        {
+          "title": "Ice Blue",
+          "color": "blue",
+          "size": "medium",
+          "price": 1500,
+          "weight": 73,
+          "sku": "10101-031-1",
+          "barcode": "5060926686813",
+          "available": true,
+          "inventory_quantity": 130,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_IceBlue_Hero.jpg?v=1706469668"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0025_OriginalPinkFizz1.jpg?v=1706469668",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0020_OriginalPinkSky1.jpg?v=1706469668",
+      "age": "old",
+      "best_selling": true,
+      "colors": [
+        "pink",
+        "purple",
+        "black",
+        "blue"
+      ]
+    },
+    {
+      "id": 3,
+      "url": "https://tangleteezer.com/products/plant-brush",
+      "badge": "detangling",
+      "name": "The Original Plant Brush™",
+      "price": "18.00",
+      "compare_at_price": null,
+      "sales_count": 800,
+      "category": "detangling",
+      "hair_type": [
+        "all"
+      ],
+      "description": "The Original Plant Brush™ combines eco-friendly design with Tangle Teezer’s signature detangling technology. Made from sustainable materials, this brush effortlessly glides through all hair types, reducing breakage and promoting shine. Weighing 85g, it’s ideal for environmentally conscious users.",
+      "variants": [
+        {
+          "title": "Marshmallow Pink",
+          "color": "pink",
+          "size": "medium",
+          "price": 1800,
+          "weight": 85,
+          "sku": "10105-001-1",
+          "barcode": "5060926682679",
+          "available": true,
+          "inventory_quantity": 70,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0000_PlantBrush_OR_MarshmallowPink_HeroImage.jpg?v=1706473754"
+        },
+        {
+          "title": "Earthy Purple",
+          "color": "purple",
+          "size": "medium",
+          "price": 1800,
+          "weight": 85,
+          "sku": "10105-002-1",
+          "barcode": "5060926682680",
+          "available": true,
+          "inventory_quantity": 60,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0003_PlantBrush_OR_EarthyPurple_HeroImage.jpg?v=1706473754"
+        },
+        {
+          "title": "Deep Sea Blue",
+          "color": "blue",
+          "size": "medium",
+          "price": 1800,
+          "weight": 85,
+          "sku": "10105-003-1",
+          "barcode": "5060926682730",
+          "available": true,
+          "inventory_quantity": 80,
+          "image": "https://tangleteezer.com/cdn/shop/files/PlantBrush_DeepSeaBlue_Hero.jpg?v=1706473754"
+        },
+        {
+          "title": "Sunshine Orange",
+          "color": "orange",
+          "size": "medium",
+          "price": 1800,
+          "weight": 85,
+          "sku": "10105-004-1",
+          "barcode": "5060926682681",
+          "available": true,
+          "inventory_quantity": 65,
+          "image": "https://tangleteezer.com/cdn/shop/files/PlantBrush_SunshineOrange_Hero.jpg?v=1706473754"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0000_PlantBrush_OR_MarshmallowPink_HeroImage.jpg?v=1706473754",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0003_PlantBrush_OR_EarthyPurple_HeroImage.jpg?v=1706473754",
+      "age": "new",
+      "best_selling": false,
+      "colors": [
+        "pink",
+        "purple",
+        "blue",
+        "orange"
+      ]
+    },
+    {
+      "id": 4,
+      "url": "https://tangleteezer.com/products/fine-fragile",
+      "badge": "detangling",
+      "name": "The Original Fine & Fragile",
+      "price": "15.00",
+      "compare_at_price": null,
+      "sales_count": 1200,
+      "category": "detangling",
+      "hair_type": [
+        "fine",
+        "color-treated"
+      ],
+      "description": "The Original Fine & Fragile Tangle Teezer is crafted for delicate, color-treated, or fine hair. Its softer, flexible teeth detangle gently to prevent breakage and split ends, delivering a smooth, healthy finish. At 73g, this lightweight brush is perfect for gentle daily care.",
+      "variants": [
+        {
+          "title": "Pink Dawn",
+          "color": "pink",
+          "size": "medium",
+          "price": 1500,
+          "weight": 73,
+          "sku": "10102-002-1",
+          "barcode": "5060173378899",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0007_OriginalF_FPinkDawn1.jpg?v=1707839946"
+        },
+        {
+          "title": "Mint Violet",
+          "color": "purple",
+          "size": "medium",
+          "price": 1500,
+          "weight": 73,
+          "sku": "10102-001-1",
+          "barcode": "5060630040048",
+          "available": true,
+          "inventory_quantity": 90,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0006_OriginalF_FMintViolet1.jpg?v=1707839946"
+        },
+        {
+          "title": "Berry Bright",
+          "color": "red",
+          "size": "medium",
+          "price": 1500,
+          "weight": 73,
+          "sku": "10102-006-1",
+          "barcode": "5060926680828",
+          "available": true,
+          "inventory_quantity": 85,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_BerryBright_Hero.jpg?v=1707839946"
+        },
+        {
+          "title": "Mindful Mauve",
+          "color": "purple",
+          "size": "medium",
+          "price": 1500,
+          "weight": 73,
+          "sku": "10102-007-1",
+          "barcode": "5060926682488",
+          "available": true,
+          "inventory_quantity": 95,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_MindfulMauve_Hero.jpg?v=1707839946"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0007_OriginalF_FPinkDawn1.jpg?v=1707839946",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0006_OriginalF_FMintViolet1.jpg?v=1707839946",
+      "age": "old",
+      "best_selling": true,
+      "colors": [
+        "pink",
+        "purple",
+        "red"
+      ]
+    },
+    {
+      "id": 5,
+      "url": "https://tangleteezer.com/products/thick-curly",
+      "badge": "detangling",
+      "name": "The Original Thick & Curly",
+      "price": "15.00",
+      "compare_at_price": null,
+      "sales_count": 1000,
+      "category": "detangling",
+      "hair_type": [
+        "thick",
+        "curly",
+        "coily"
+      ],
+      "description": "The Original Thick & Curly Tangle Teezer is engineered for thick, curly, or coily hair. Its firm, robust teeth tackle tough knots with ease, reducing frizz and breakage for smooth, defined curls. Weighing 80g, this brush is available in bold colors.",
+      "variants": [
+        {
+          "title": "Salsa Red",
+          "color": "red",
+          "size": "medium",
+          "price": 1500,
+          "weight": 80,
+          "sku": "10103-001-USA-1",
+          "barcode": "5060173372347",
+          "available": false,
+          "inventory_quantity": 0,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0013_OriginalT_CSalsaRed1.jpg?v=1707840010"
+        },
+        {
+          "title": "Terracotta",
+          "color": "orange",
+          "size": "medium",
+          "price": 1500,
+          "weight": 80,
+          "sku": "10103-007-1",
+          "barcode": "5060926680767",
+          "available": true,
+          "inventory_quantity": 70,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0011_OriginalT_CTerracotta1.jpg?v=1707840069"
+        },
+        {
+          "title": "Pink Punch",
+          "color": "pink",
+          "size": "medium",
+          "price": 1500,
+          "weight": 80,
+          "sku": "10103-008-1",
+          "barcode": "5060926682365",
+          "available": true,
+          "inventory_quantity": 80,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_PinkPunch_Hero.jpg?v=1707840069"
+        },
+        {
+          "title": "Dusky Pink",
+          "color": "pink",
+          "size": "medium",
+          "price": 1500,
+          "weight": 80,
+          "sku": "10103-004-1",
+          "barcode": "5060630042172",
+          "available": true,
+          "inventory_quantity": 75,
+          "image": "https://tangleteezer.com/cdn/shop/files/Original_DuskyPink_Hero.jpg?v=1707840069"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0013_OriginalT_CSalsaRed1.jpg?v=1707840010",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0011_OriginalT_CTerracotta1.jpg?v=1707840069",
+      "age": "new",
+      "best_selling": false,
+      "colors": [
+        "red",
+        "orange",
+        "pink"
+      ]
+    },
+    {
+      "id": 6,
+      "url": "https://tangleteezer.com/products/the-original-mini",
+      "badge": "detangling",
+      "name": "The Original Mini",
+      "price": "11.00",
+      "compare_at_price": null,
+      "sales_count": 1800,
+      "category": "detangling",
+      "hair_type": [
+        "kids",
+        "all"
+      ],
+      "description": "The Original Mini Tangle Teezer is a compact, travel-friendly brush perfect for kids or on-the-go detangling. Its small size (51g) and playful designs make it fun and functional for all hair types. Ideal for gentle detangling without tugging, it’s a must-have for small hands or purses.",
+      "variants": [
+        {
+          "title": "Rainbow the Unicorn",
+          "color": "multicolor",
+          "size": "mini",
+          "price": 1100,
+          "weight": 51,
+          "sku": "10104-007-KIDS-1",
+          "barcode": "5060630042752",
+          "available": true,
+          "inventory_quantity": 200,
+          "image": "https://tangleteezer.com/cdn/shop/files/Originalmini_0001s_0004_RainbowtheUnicorn1.jpg?v=1706281537"
+        },
+        {
+          "title": "Unicorn Magic",
+          "color": "multicolor",
+          "size": "mini",
+          "price": 1100,
+          "weight": 51,
+          "sku": "10104-005-KIDS-1",
+          "barcode": "5060630042707",
+          "available": false,
+          "inventory_quantity": 0,
+          "image": "https://tangleteezer.com/cdn/shop/files/Originalmini_0001s_0003_UnicornMagic1.jpg?v=1720439948"
+        },
+        {
+          "title": "Dinosaurs",
+          "color": "multicolor",
+          "size": "mini",
+          "price": 1100,
+          "weight": 51,
+          "sku": "10104-008-KIDS-1",
+          "barcode": "5060630042813",
+          "available": true,
+          "inventory_quantity": 150,
+          "image": "https://tangleteezer.com/cdn/shop/files/Originalmini_Dinosaurs_Hero.jpg?v=1706281537"
+        },
+        {
+          "title": "Paradise Green",
+          "color": "green",
+          "size": "mini",
+          "price": 1100,
+          "weight": 51,
+          "sku": "10104-013-1",
+          "barcode": "5060926681528",
+          "available": true,
+          "inventory_quantity": 120,
+          "image": "https://tangleteezer.com/cdn/shop/files/Originalmini_ParadiseGreen_Hero.jpg?v=1706281537"
+        },
+        {
+          "title": "Marine Teal & Rosebud",
+          "color": "teal",
+          "size": "mini",
+          "price": 1100,
+          "weight": 51,
+          "sku": "10104-014-1",
+          "barcode": "5060926684543",
+          "available": true,
+          "inventory_quantity": 110,
+          "image": "https://tangleteezer.com/cdn/shop/files/Originalmini_MarineTealRosebud_Hero.jpg?v=1706281537"
+        },
+        {
+          "title": "Orange Safari",
+          "color": "orange",
+          "size": "mini",
+          "price": 1100,
+          "weight": 51,
+          "sku": "10104-015-1",
+          "barcode": "5060926684567",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Originalmini_OrangeSafari_Hero.jpg?v=1706281537"
+        },
+        {
+          "title": "Millennial Pink",
+          "color": "pink",
+          "size": "mini",
+          "price": 1100,
+          "weight": 51,
+          "sku": "10104-006-1",
+          "barcode": "5060630042998",
+          "available": true,
+          "inventory_quantity": 130,
+          "image": "https://tangleteezer.com/cdn/shop/files/Originalmini_MillennialPink_Hero.jpg?v=1706281537"
+        },
+        {
+          "title": "Buttercup Yellow",
+          "color": "yellow",
+          "size": "mini",
+          "price": 1100,
+          "weight": 51,
+          "sku": "10104-017-1",
+          "barcode": "5060926686837",
+          "available": true,
+          "inventory_quantity": 140,
+          "image": "https://tangleteezer.com/cdn/shop/files/Originalmini_ButtercupYellow_Hero.jpg?v=1706281537"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Originalmini_0001s_0004_RainbowtheUnicorn1.jpg?v=1706281537",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Originalmini_0001s_0003_UnicornMagic1.jpg?v=1720439948",
+      "age": "old",
+      "best_selling": true,
+      "colors": [
+        "multicolor",
+        "green",
+        "teal",
+        "orange",
+        "pink",
+        "yellow"
+      ]
+    },
+    {
+      "id": 7,
+      "url": "https://tangleteezer.com/products/compact-styler",
+      "badge": "detangling",
+      "name": "Compact Styler",
+      "price": "17.00",
+      "compare_at_price": null,
+      "sales_count": 900,
+      "category": "detangling",
+      "hair_type": [
+        "all"
+      ],
+      "description": "The Compact Styler is Tangle Teezer’s travel-ready detangling brush with a protective cover to keep teeth safe. Perfect for all hair types, its two-tiered teeth glide through knots effortlessly, ensuring smooth, shiny hair on the go. At 105g, it’s stylish and portable.",
+      "variants": [
+        {
+          "title": "Ivory Rose Gold",
+          "color": "white",
+          "size": "medium",
+          "price": 1700,
+          "weight": 105,
+          "sku": "10301-009-3",
+          "barcode": "5060173373979",
+          "available": true,
+          "inventory_quantity": 80,
+          "image": "https://tangleteezer.com/cdn/shop/files/Compactstyler_0000s_0003s_0016_IvoryRoseGold1.jpg?v=1706543074"
+        },
+        {
+          "title": "Matte Ombre",
+          "color": "multicolor",
+          "size": "medium",
+          "price": 1700,
+          "weight": 105,
+          "sku": "10301-043-3",
+          "barcode": "5060630046804",
+          "available": true,
+          "inventory_quantity": 70,
+          "image": "https://tangleteezer.com/cdn/shop/files/Compactstyler_0000s_0003s_0013_MatteChrome1.jpg?v=1706543968"
+        },
+        {
+          "title": "Sweet Lilac & Yellow Chrome",
+          "color": "purple",
+          "size": "medium",
+          "price": 1700,
+          "weight": 105,
+          "sku": "10301-081-3",
+          "barcode": "5060926681160",
+          "available": true,
+          "inventory_quantity": 60,
+          "image": "https://tangleteezer.com/cdn/shop/files/Compactstyler_SweetLilacYellow_Hero.jpg?v=1706543968"
+        },
+        {
+          "title": "Frosted Teal Chrome",
+          "color": "teal",
+          "size": "medium",
+          "price": 1700,
+          "weight": 105,
+          "sku": "10301-083-3",
+          "barcode": "5060926682976",
+          "available": true,
+          "inventory_quantity": 65,
+          "image": "https://tangleteezer.com/cdn/shop/files/Compactstyler_FrostedTealChrome_Hero.jpg?v=1706543968"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Compactstyler_0000s_0003s_0016_IvoryRoseGold1.jpg?v=1706543074",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Compactstyler_0000s_0003s_0013_MatteChrome1.jpg?v=1706543968",
+      "age": "new",
+      "best_selling": false,
+      "colors": [
+        "white",
+        "multicolor",
+        "purple",
+        "teal"
+      ]
+    },
+    {
+      "id": 8,
+      "url": "https://tangleteezer.com/products/smoothing-tool",
+      "badge": "blow drying",
+      "name": "Smoothing Tool",
+      "price": "26.00",
+      "compare_at_price": null,
+      "sales_count": 600,
+      "category": "blow drying",
+      "hair_type": [
+        "all"
+      ],
+      "description": "The Tangle Teezer Smoothing Tool is designed for salon-quality blow-drying at home. Its innovative teeth reduce frizz and add volume, creating a smooth, polished finish. Available in Large and Regular sizes, this brush works on all hair types, delivering professional results with minimal effort.",
+      "variants": [
+        {
+          "title": "Blue/Cream",
+          "color": "blue",
+          "size": "large",
+          "price": 2600,
+          "weight": 182,
+          "sku": "20202-001-1",
+          "barcode": "5060173370558",
+          "available": true,
+          "inventory_quantity": 50,
+          "image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0009_Large_Brush_Rotation_2.jpg?v=1706199248"
+        },
+        {
+          "title": "Blue/Cream",
+          "color": "blue",
+          "size": "medium",
+          "price": 2600,
+          "weight": 150,
+          "sku": "20201-001-1",
+          "barcode": "5060173370534",
+          "available": true,
+          "inventory_quantity": 60,
+          "image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0005_Small_Brush_Rotation_2.jpg?v=1706478397"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0009_Large_Brush_Rotation_2.jpg?v=1706199248",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0005_Small_Brush_Rotation_2.jpg?v=1706478397",
+      "age": "old",
+      "best_selling": false,
+      "colors": [
+        "blue"
+      ]
+    },
+    {
+      "id": 9,
+      "url": "https://tangleteezer.com/products/round-tool",
+      "badge": "blow drying",
+      "name": "Round Tool",
+      "price": "26.00",
+      "compare_at_price": null,
+      "sales_count": 550,
+      "category": "blow drying",
+      "hair_type": [
+        "all"
+      ],
+      "description": "The Tangle Teezer Round Tool is perfect for creating voluminous, bouncy blow-dried styles. Its rounded design lifts hair at the roots, adding body and smoothness. Available in Large and Small sizes, this brush is ideal for all hair lengths, delivering salon-worthy results at home.",
+      "variants": [
+        {
+          "title": "Black/White",
+          "color": "black",
+          "size": "large",
+          "price": 2600,
+          "weight": 240,
+          "sku": "20302-001-1",
+          "barcode": "5060173370350",
+          "available": true,
+          "inventory_quantity": 40,
+          "image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0001_Round_Styling_Brush_Large_front.jpg?v=1706481362"
+        },
+        {
+          "title": "Black/White",
+          "color": "black",
+          "size": "small",
+          "price": 2600,
+          "weight": 190,
+          "sku": "20301-001-1",
+          "barcode": "5060173370329",
+          "available": true,
+          "inventory_quantity": 50,
+          "image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0000_Round_Styling_Brush_Half_Size_front.jpg?v=1706481362"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0001_Round_Styling_Brush_Large_front.jpg?v=1706481362",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0000_Round_Styling_Brush_Half_Size_front.jpg?v=1706481362",
+      "age": "new",
+      "best_selling": false,
+      "colors": [
+        "black"
+      ]
+    },
+    {
+      "id": 10,
+      "url": "https://tangleteezer.com/products/the-scalp-exfoliator-and-massager",
+      "badge": "wellness",
+      "name": "The Scalp Exfoliator & Massager",
+      "price": "9.00",
+      "compare_at_price": null,
+      "sales_count": 1100,
+      "category": "wellness",
+      "hair_type": [
+        "all"
+      ],
+      "description": "The Scalp Exfoliator & Massager promotes a healthy scalp with gentle exfoliation and soothing massage. Its flexible teeth stimulate blood flow, remove buildup, and enhance hair health. Lightweight at 36g, this tool is perfect for wet or dry use.",
+      "variants": [
+        {
+          "title": "Pretty Pink",
+          "color": "pink",
+          "size": "small",
+          "price": 900,
+          "weight": 36,
+          "sku": "40101-002-1",
+          "barcode": "5060630044046",
+          "available": true,
+          "inventory_quantity": 200,
+          "image": "https://tangleteezer.com/cdn/shop/files/Scalp_0000s_0000s_0003_PrettyPink.jpg?v=1706114517"
+        },
+        {
+          "title": "Lavender Life",
+          "color": "purple",
+          "size": "small",
+          "price": 900,
+          "weight": 36,
+          "sku": "40101-003-1",
+          "barcode": "5060630043926",
+          "available": true,
+          "inventory_quantity": 180,
+          "image": "https://tangleteezer.com/cdn/shop/files/Scalp_0000s_0002s_0001_HeroImage_SR_PrettyPink.jpg?v=1706114517"
+        },
+        {
+          "title": "Onyx Black",
+          "color": "black",
+          "size": "small",
+          "price": 900,
+          "weight": 36,
+          "sku": "40101-001-1",
+          "barcode": "5060630043841",
+          "available": true,
+          "inventory_quantity": 190,
+          "image": "https://tangleteezer.com/cdn/shop/files/Scalp_OnyxBlack_Hero.jpg?v=1706114517"
+        },
+        {
+          "title": "Mint Green Whisper",
+          "color": "green",
+          "size": "small",
+          "price": 900,
+          "weight": 36,
+          "sku": "SB-MNT-010121",
+          "barcode": "5060630043988",
+          "available": true,
+          "inventory_quantity": 170,
+          "image": "https://tangleteezer.com/cdn/shop/files/Scalp_MintGreenWhisper_Hero.jpg?v=1706114517"
+        },
+        {
+          "title": "Seafoam Blue",
+          "color": "blue",
+          "size": "small",
+          "price": 900,
+          "weight": 36,
+          "sku": "40101-006-1",
+          "barcode": "5060926682303",
+          "available": true,
+          "inventory_quantity": 160,
+          "image": "https://tangleteezer.com/cdn/shop/files/Scalp_SeafoamBlue_Hero.jpg?v=1706114517"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Scalp_0000s_0000s_0003_PrettyPink.jpg?v=1706114517",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Scalp_0000s_0002s_0001_HeroImage_SR_PrettyPink.jpg?v=1706114517",
+      "age": "old",
+      "best_selling": true,
+      "colors": [
+        "pink",
+        "purple",
+        "black",
+        "green",
+        "blue"
+      ]
+    },
+    {
+      "id": 11,
+      "url": "https://tangleteezer.com/products/fine-mist-spray-bottle",
+      "badge": "styling",
+      "name": "Fine Mist Spray Bottle",
+      "price": "12.00",
+      "compare_at_price": null,
+      "sales_count": 700,
+      "category": "accessories",
+      "hair_type": [
+        "all"
+      ],
+      "description": "The Fine Mist Spray Bottle delivers a light, even mist to hydrate hair before styling or detangling. With a 108g ergonomic design, it’s perfect for applying water, leave-in conditioners, or styling products. Available in a sleek Pink finish, this bottle ensures precise application for smooth, manageable hair.",
+      "variants": [
+        {
+          "title": "Pink",
+          "color": "pink",
+          "size": "medium",
+          "price": 1200,
+          "weight": 108,
+          "sku": "ACS-PWB-010320",
+          "barcode": "5060630049416",
+          "available": true,
+          "inventory_quantity": 90,
+          "image": "https://tangleteezer.com/cdn/shop/files/Spraybottle_0001s_0000_FineMistSprayBottle_Pink_1.jpg?v=1706198818"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Spraybottle_0001s_0000_FineMistSprayBottle_Pink_1.jpg?v=1706198818",
+      "second_image": null,
+      "age": "new",
+      "best_selling": false,
+      "colors": [
+        "pink"
+      ]
+    },
+    {
+      "id": 12,
+      "url": "https://tangleteezer.com/products/puppy-brush",
+      "badge": "pet grooming",
+      "name": "Puppy Brush",
+      "price": "11.00",
+      "compare_at_price": null,
+      "sales_count": 400,
+      "category": "pet grooming",
+      "hair_type": [
+        "pet"
+      ],
+      "description": "The Puppy Brush by Tangle Teezer is designed for gentle grooming of your dog’s coat. Its flexible teeth detangle fur without pulling, keeping your pet comfortable and their coat shiny. Weighing 70g and available in Pistachio, this brush is perfect for small to medium-sized dogs with all fur types.",
+      "variants": [
+        {
+          "title": "Pistachio",
+          "color": "green",
+          "size": "medium",
+          "price": 1100,
+          "weight": 70,
+          "sku": "10605-001-1",
+          "barcode": "5060630040901",
+          "available": true,
+          "inventory_quantity": 80,
+          "image": "https://tangleteezer.com/cdn/shop/files/Pet_0001s_0001_FrontLeft.jpg?v=1706285935"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Pet_0001s_0001_FrontLeft.jpg?v=1706285935",
+      "second_image": null,
+      "age": "old",
+      "best_selling": false,
+      "colors": [
+        "green"
+      ]
+    },
+    {
+      "id": 13,
+      "url": "https://tangleteezer.com/products/cat-brush",
+      "badge": "pet grooming",
+      "name": "Cat Grooming Brush",
+      "price": "11.00",
+      "compare_at_price": null,
+      "sales_count": 450,
+      "category": "pet grooming",
+      "hair_type": [
+        "pet"
+      ],
+      "description": "The Cat Grooming Brush gently detangles and smooths your cat’s fur, reducing shedding and promoting a healthy coat. Its flexible teeth ensure a comfortable grooming experience for your pet. Lightweight at 70g, this brush is ideal for cats of all fur types.",
+      "variants": [
+        {
+          "title": "Green",
+          "color": "green",
+          "size": "medium",
+          "price": 1100,
+          "weight": 70,
+          "sku": "10606-001-1",
+          "barcode": "5060926680415",
+          "available": true,
+          "inventory_quantity": 85,
+          "image": "https://tangleteezer.com/cdn/shop/files/Pet_0000s_0002_CatGroomingBrush_Angle3.jpg?v=1706285136"
+        },
+        {
+          "title": "Millennial Pink",
+          "color": "pink",
+          "size": "medium",
+          "price": 1100,
+          "weight": 70,
+          "sku": "10606-002-1",
+          "barcode": "5060926686141",
+          "available": true,
+          "inventory_quantity": 90,
+          "image": "https://tangleteezer.com/cdn/shop/files/CatBrush_MillenialPink_Angle5.jpg?v=1725977616"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Pet_0000s_0002_CatGroomingBrush_Angle3.jpg?v=1706285136",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/CatBrush_MillenialPink_Angle5.jpg?v=1725977616",
+      "age": "new",
+      "best_selling": false,
+      "colors": [
+        "green",
+        "pink"
+      ]
+    },
+    {
+      "id": 14,
+      "url": "https://tangleteezer.com/products/detangling-brush",
+      "badge": "detangling",
+      "name": "Detangling Dog Grooming Brush",
+      "price": "13.00",
+      "compare_at_price": null,
+      "sales_count": 0,
+      "category": "pet grooming",
+      "hair_type": [
+        "dog fur"
+      ],
+      "description": "The Tangle Teezer Detangling Dog Grooming Brush is designed for effortless detangling of dog fur, suitable for both large and small breeds. Its patented two-tier teeth technology gently removes knots and tangles, reducing shedding and ensuring a smooth grooming experience. Available in vibrant color combinations, this brush is perfect for keeping your pet's coat healthy and shiny.",
+      "variants": [
+        {
+          "title": "Large / Pink & Yellow",
+          "color": "pink & yellow",
+          "size": "large",
+          "price": 1300,
+          "weight": 114,
+          "sku": "10603-001-1",
+          "barcode": "5060173378363",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Pet_0003s_0002s_0002_Detanglingyellowpink.jpg?v=1706285697"
+        },
+        {
+          "title": "Large / Blue & Grey",
+          "color": "blue & grey",
+          "size": "large",
+          "price": 1300,
+          "weight": 114,
+          "sku": "10603-003-1",
+          "barcode": "5060926680576",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Pet_0003s_0002s_0001_DetanglingCornflower.jpg?v=1706533727"
+        },
+        {
+          "title": "Small / Lilac Butter",
+          "color": "lilac butter",
+          "size": "small",
+          "price": 1100,
+          "weight": 70,
+          "sku": "10601-001-1",
+          "barcode": "5060630041717",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Pet_0002s_0000s_0000_DetanglingLilacButter.jpg?v=1706533727"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Pet_0003s_0002s_0002_Detanglingyellowpink.jpg?v=1706285697&width=550",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Pet_0003s_0000s_0000_PinkYellow.jpg?v=1706285697&width=550",
+      "age": "new",
+      "best_selling": false,
+      "colors": [
+        "pink & yellow",
+        "blue & grey",
+        "lilac butter"
+      ]
+    },
+    {
+      "id": 15,
+      "url": "https://tangleteezer.com/products/deshedding-brush",
+      "badge": "de-shedding",
+      "name": "De-shedding Dog Grooming Brush",
+      "price": "13.00",
+      "compare_at_price": null,
+      "sales_count": 0,
+      "category": "pet grooming",
+      "hair_type": [
+        "dog fur"
+      ],
+      "description": "The Tangle Teezer De-shedding Dog Grooming Brush is crafted to effectively reduce shedding in dogs, suitable for both large and small breeds. Its specialized teeth design removes loose fur, minimizing mess and keeping your pet's coat sleek and healthy. Available in vibrant color combinations, this brush is ideal for regular grooming sessions.",
+      "variants": [
+        {
+          "title": "Large / Purple & Grey",
+          "color": "purple & grey",
+          "size": "large",
+          "price": 1300,
+          "weight": 114,
+          "sku": "10604-001-1",
+          "barcode": "5060173378356",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Pet_0003s_0002s_0003_Desheddingpurple.jpg?v=1706285296"
+        },
+        {
+          "title": "Large / Blue & Pink",
+          "color": "blue & pink",
+          "size": "large",
+          "price": 1300,
+          "weight": 114,
+          "sku": "10604-002-1",
+          "barcode": "5060630040123",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Pet_0003s_0002s_0004_DesheddingBluepink.jpg?v=1706534550"
+        },
+        {
+          "title": "Large / Pink & Green",
+          "color": "pink & green",
+          "size": "large",
+          "price": 1300,
+          "weight": 114,
+          "sku": "10604-003-1",
+          "barcode": "5060926680453",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Pet_0003s_0002s_0005_DesheddingBabyPink.jpg?v=1706534550"
+        },
+        {
+          "title": "Small / Navy Sky",
+          "color": "navy sky",
+          "size": "small",
+          "price": 1100,
+          "weight": 70,
+          "sku": "10602-001-1",
+          "barcode": "5060630041694",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Pet_0002s_0000s_0001_De-Shedding_NavyandSkyBlueSmall2.jpg?v=1706534566"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Pet_0003s_0002s_0003_Desheddingpurple.jpg?v=1706285296&width=550",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Pet_0003s_0000s_0003_PurpleandGreyPetStyler_7.jpg?v=1706285297&width=550",
+      "age": "new",
+      "best_selling": true,
+      "colors": [
+        "purple & grey",
+        "blue & pink",
+        "pink & green",
+        "navy sky"
+      ]
+    },
+    {
+      "id": 16,
+      "url": "https://tangleteezer.com/products/the-ultimate-styler",
+      "badge": "styling",
+      "name": "The Ultimate Styler",
+      "price": "17.00",
+      "compare_at_price": null,
+      "sales_count": 0,
+      "category": "styling",
+      "hair_type": [
+        "all hair types"
+      ],
+      "description": "The Tangle Teezer Ultimate Styler is designed for versatile styling, perfect for all hair types. Its unique teeth configuration smooths and adds shine, making it ideal for creating polished looks. Lightweight at 98g, this brush is available in vibrant colors, ensuring a stylish and effective grooming experience.",
+      "variants": [
+        {
+          "title": "Millennial Pink",
+          "color": "millennial pink",
+          "size": null,
+          "price": 1700,
+          "weight": 98,
+          "sku": "30101-002-1",
+          "barcode": "5060630047979",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/TUS_0000s_0002s_0004_MillennialPink_TUS_Angle7.jpg?v=1706112870"
+        },
+        {
+          "title": "Sweet Pink",
+          "color": "sweet pink",
+          "size": null,
+          "price": 1700,
+          "weight": 98,
+          "sku": "30101-003-1",
+          "barcode": "5060630048013",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/TUS_0000s_0002s_0003_SweetPink_TUS_Angle7.jpg?v=1713530340"
+        },
+        {
+          "title": "Peach Glow",
+          "color": "peach glow",
+          "size": null,
+          "price": 1700,
+          "weight": 98,
+          "sku": "30101-004-1",
+          "barcode": "5060630047993",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/TUS_0000s_0002s_0002_PeachGlow_TUS_Angle7.jpg?v=1713530340"
+        },
+        {
+          "title": "Jet Black",
+          "color": "jet black",
+          "size": null,
+          "price": 1700,
+          "weight": 98,
+          "sku": "30101-001-1",
+          "barcode": "5060630047955",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/TUS_0000s_0002s_0001_JetBlack_TUS_Angle7.jpg?v=1706486111"
+        },
+        {
+          "title": "Lilac Cloud",
+          "color": "lilac cloud",
+          "size": null,
+          "price": 1700,
+          "weight": 98,
+          "sku": "30101-005-1",
+          "barcode": "5060926682334",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/TUS_0000s_0002s_0000_TUS_Lilac_Angle7.jpg?v=1706486111"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/TUS_0000s_0002s_0004_MillennialPink_TUS_Angle7.jpg?v=1706112870&width=550",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/TUS_0000s_0000s_0004_MillennialPink_TUS_Angle6.jpg?v=1713530340&width=550",
+      "age": "new",
+      "best_selling": true,
+      "colors": [
+        "millennial pink",
+        "sweet pink",
+        "peach glow",
+        "jet black",
+        "lilac cloud"
+      ]
+    },
+    {
+      "id": 17,
+      "url": "https://tangleteezer.com/products/ultimate-blow-dry",
+      "badge": "blow drying",
+      "name": "The Ultimate Blow Dry",
+      "price": "17.00",
+      "compare_at_price": null,
+      "sales_count": 0,
+      "category": "blow drying",
+      "hair_type": [
+        "all hair types"
+      ],
+      "description": "The Tangle Teezer Ultimate Blow Dry is crafted for smooth, frizz-free blow-drying. Available in regular and large sizes, its innovative teeth design ensures even heat distribution, reducing damage and enhancing shine. Lightweight and available in vibrant colors, it’s perfect for achieving salon-quality results at home.",
+      "variants": [
+        {
+          "title": "Regular / Tickled Pink",
+          "color": "tickled pink",
+          "size": "regular",
+          "price": 1700,
+          "weight": 88,
+          "sku": "20101-002-1",
+          "barcode": "5060630047801",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/PDPCarouselRotationsTemplate_TUVH_0000s_0002s_0000_EDG_MillennialPink_8.jpg?v=1709916120"
+        },
+        {
+          "title": "Regular / Jet Black",
+          "color": "jet black",
+          "size": "regular",
+          "price": 1700,
+          "weight": 88,
+          "sku": "20101-001-1",
+          "barcode": "5060630047764",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/PDPCarouselRotationsTemplate_TUVH_0000s_0002s_0004_EDG_Black_8.jpg?v=1744123240"
+        },
+        {
+          "title": "Regular / Sweet Pea",
+          "color": "sweet pea",
+          "size": "regular",
+          "price": 1700,
+          "weight": 88,
+          "sku": "20101-003-1",
+          "barcode": "5060630047788",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/PDPCarouselRotationsTemplate_TUVH_0000s_0002s_0002_EDG_Aqua_8.jpg?v=1744123240"
+        },
+        {
+          "title": "Large / Jet Black Large",
+          "color": "jet black",
+          "size": "large",
+          "price": 2100,
+          "weight": 148,
+          "sku": "EDGL-BB-010821",
+          "barcode": "5060630048037",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/TUVH_0000s_0002s_0000_JetBlack_EDGL_Angle7.jpg?v=1744123240"
+        },
+        {
+          "title": "Large / Tickled Pink Large",
+          "color": "tickled pink",
+          "size": "large",
+          "price": 2100,
+          "weight": 148,
+          "sku": "EDGL-DP-010821",
+          "barcode": "5060630048051",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/TUVH_0000s_0002s_0001_TickledPink_EDGL_TUS_Angle7.jpg?v=1744123240"
+        },
+        {
+          "title": "Large / Lilac Cloud Large",
+          "color": "lilac cloud",
+          "size": "large",
+          "price": 2100,
+          "weight": 148,
+          "sku": "20102-003-1",
+          "barcode": "5060630048075",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/TUVH_0000s_0002s_0002_LilacCloudLarge.jpg?v=1744123240"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/PDPCarouselRotationsTemplate_TUVH_0000s_0002s_0000_EDG_MillennialPink_8.jpg?v=1709916120&width=550",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/TUVH_0000s_0001s_0002_EDG_MillennialPink_7.jpg?v=1709916120&width=550",
+      "age": "new",
+      "best_selling": true,
+      "colors": [
+        "tickled pink",
+        "jet black",
+        "sweet pea",
+        "lilac cloud"
+      ]
+    },
+    {
+      "id": 18,
+      "url": "https://tangleteezer.com/products/smoothing-tool",
+      "badge": "blow drying",
+      "name": "Smoothing Tool",
+      "price": "29.99",
+      "compare_at_price": null,
+      "sales_count": 0,
+      "category": "blow drying",
+      "hair_type": [
+        "all hair types"
+      ],
+      "description": "The Tangle Teezer Smoothing Tool is designed for sleek, polished results during blow-drying. Available in large and regular sizes, its unique teeth technology smooths hair cuticles, reducing frizz and enhancing shine. Lightweight and durable, it’s perfect for achieving a professional finish at home.",
+      "variants": [
+        {
+          "title": "Large / Blue/Cream",
+          "color": "blue/cream",
+          "size": "large",
+          "price": 2999,
+          "weight": 182,
+          "sku": "20202-001-1",
+          "barcode": "5060173370558",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0009_Large_Brush_Rotation_2.jpg?v=1706199248"
+        },
+        {
+          "title": "Regular / Blue/Cream",
+          "color": "blue/cream",
+          "size": "regular",
+          "price": 2600,
+          "weight": 150,
+          "sku": "20201-001-1",
+          "barcode": "5060173370534",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0005_Small_Brush_Rotation_2.jpg?v=1706478397"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0009_Large_Brush_Rotation_2.jpg?v=1706199248&width=550",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0008_Large_Brush_Rotation_1.jpg?v=1706478397&width=550",
+      "age": "new",
+      "best_selling": true,
+      "colors": [
+        "blue/cream"
+      ]
+    },
+    {
+      "id": 19,
+      "url": "https://tangleteezer.com/products/round-tool",
+      "badge": "blow drying",
+      "name": "Round Tool",
+      "price": "29.99",
+      "compare_at_price": null,
+      "sales_count": 0,
+      "category": "blow drying",
+      "hair_type": [
+        "all hair types"
+      ],
+      "description": "The Tangle Teezer Round Tool is perfect for creating volume and shape during blow-drying. Available in large and small sizes, its round design and specialized teeth ensure smooth, bouncy results with minimal damage. Lightweight and ergonomic, it’s ideal for salon-quality styling.",
+      "variants": [
+        {
+          "title": "Large / Black/White",
+          "color": "black/white",
+          "size": "large",
+          "price": 2999,
+          "weight": 240,
+          "sku": "20302-001-1",
+          "barcode": "5060173370350",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0001_Round_Styling_Brush_Large_front.jpg?v=1706481362"
+        },
+        {
+          "title": "Small / Black/White",
+          "color": "black/white",
+          "size": "small",
+          "price": 2600,
+          "weight": 190,
+          "sku": "20301-001-1",
+          "barcode": "5060173370329",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0000_Round_Styling_Brush_Half_Size_front.jpg?v=1706481362"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0001_Round_Styling_Brush_Large_front.jpg?v=1706481362&width=550",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Lifestyle_0018s_0001_Round-Tool-Large.png?v=1706481362&width=550",
+      "age": "new",
+      "best_selling": true,
+      "colors": [
+        "black/white"
+      ]
+    },
+    {
+      "id": 20,
+      "url": "https://tangleteezer.com/products/everyday-detangling-spray-kids",
+      "badge": "detangling",
+      "name": "Everyday Detangling Spray Kids",
+      "price": "6.00",
+      "compare_at_price": null,
+      "sales_count": 0,
+      "category": "detangling",
+      "hair_type": [
+        "kids hair"
+      ],
+      "description": "The Tangle Teezer Everyday Detangling Spray for Kids is formulated to gently detangle children's hair, making brushing easier and tear-free. Its lightweight, non-greasy formula adds softness and shine, perfect for daily use on delicate hair.",
+      "variants": [
+        {
+          "title": "Default",
+          "color": "clear",
+          "size": null,
+          "price": 600,
+          "weight": 108,
+          "sku": "50101-001-1",
+          "barcode": "5060926689001",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Spray_PDPs_0011_Spray_PDPs__0001_2024-07-08_-_TT_UK_-_Spray_Bottle_PDP_Images0022.jpg?v=1726579229&width=550"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Spray_PDPs_0011_Spray_PDPs__0001_2024-07-08_-_TT_UK_-_Spray_Bottle_PDP_Images0022.jpg?v=1726579229&width=550",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Spray_PDPs_0009_Spray_PDPs__0003_2024-07-08_-_TT_UK_-_Spray_Bottle_PDP_Images0032.jpg?v=1726579229&width=550",
+      "age": "new",
+      "best_selling": true,
+      "colors": [
+        "clear"
+      ]
+    },
+    {
+      "id": 21,
+      "url": "https://tangleteezer.com/products/everyday-detangling-wheat-protein",
+      "badge": "detangling",
+      "name": "Everyday Detangling Spray Wheat Protein",
+      "price": "8.00",
+      "compare_at_price": null,
+      "sales_count": 0,
+      "category": "detangling",
+      "hair_type": [
+        "all hair types"
+      ],
+      "description": "The Tangle Teezer Everyday Detangling Spray with Wheat Protein is designed to effortlessly detangle hair while nourishing with wheat protein. Its lightweight formula smooths and strengthens, reducing breakage and adding shine for all hair types.",
+      "variants": [
+        {
+          "title": "Default",
+          "color": "clear",
+          "size": null,
+          "price": 800,
+          "weight": 108,
+          "sku": "50102-001-1",
+          "barcode": "5060926689002",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Spray_PDPs_0003_Spray_PDPs__0009_2024-07-08_-_TT_UK_-_Spray_Bottle_PDP_Images0063.jpg?v=1726579404&width=550"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Spray_PDPs_0003_Spray_PDPs__0009_2024-07-08_-_TT_UK_-_Spray_Bottle_PDP_Images0063.jpg?v=1726579404&width=550",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Spray_PDPs_0000_Spray_PDPs__0012_2024-07-08_-_TT_UK_-_Spray_Bottle_PDP_Images0074.jpg?v=1726579474&width=550",
+      "age": "new",
+      "best_selling": true,
+      "colors": [
+        "clear"
+      ]
+    },
+    {
+      "id": 22,
+      "url": "https://tangleteezer.com/products/everyday-detangling-shea-butter",
+      "badge": "detangling",
+      "name": "Everyday Detangling Spray Shea Butter",
+      "price": "8.00",
+      "compare_at_price": null,
+      "sales_count": 0,
+      "category": "detangling",
+      "hair_type": [
+        "thick",
+        "curly"
+      ],
+      "description": "The Tangle Teezer Everyday Detangling Spray with Shea Butter is formulated for thick and curly hair, providing deep nourishment and effortless detangling. Its rich, moisturizing formula smooths knots and enhances manageability, leaving hair soft and shiny.",
+      "variants": [
+        {
+          "title": "Default",
+          "color": "clear",
+          "size": null,
+          "price": 800,
+          "weight": 108,
+          "sku": "50103-001-1",
+          "barcode": "5060926689003",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/DetanglingSpray_0000s_0001s_0001_Thick_Curly_DetanglingCreamSpray_Front.jpg?v=1707850202&width=550"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/DetanglingSpray_0000s_0001s_0001_Thick_Curly_DetanglingCreamSpray_Front.jpg?v=1707850202&width=550",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/DetanglingSpray_0000s_0001s_0000_ThickCurlyDetanglingSpray_Back.jpg?v=1707850202&width=550",
+      "age": "new",
+      "best_selling": true,
+      "colors": [
+        "clear"
+      ]
+    },
+    {
+      "id": 23,
+      "url": "https://tangleteezer.com/products/fine-mist-spray-bottle",
+      "badge": "styling",
+      "name": "Fine Mist Spray Bottle",
+      "price": "12.00",
+      "compare_at_price": null,
+      "sales_count": 0,
+      "category": "styling",
+      "hair_type": [
+        "all hair types"
+      ],
+      "description": "The Tangle Teezer Fine Mist Spray Bottle is perfect for evenly distributing water or styling products. Its fine mist ensures gentle application, ideal for detangling or refreshing hair without soaking. Lightweight at 108g, it’s a must-have for styling routines.",
+      "variants": [
+        {
+          "title": "Pink",
+          "color": "pink",
+          "size": null,
+          "price": 1200,
+          "weight": 108,
+          "sku": "ACS-PWB-010320",
+          "barcode": "5060630049416",
+          "available": true,
+          "inventory_quantity": 100,
+          "image": "https://tangleteezer.com/cdn/shop/files/Spraybottle_0001s_0000_FineMistSprayBottle_Pink_1.jpg?v=1706198818"
+        }
+      ],
+      "primary_image": "https://tangleteezer.com/cdn/shop/files/Spraybottle_0001s_0000_FineMistSprayBottle_Pink_1.jpg?v=1706198818&width=550",
+      "second_image": "https://tangleteezer.com/cdn/shop/files/Spraybottle_0001s_0001_FineMistSprayBottle_Pink_2Frame.jpg?v=1706198817&width=550",
+      "age": "new",
+      "best_selling": false,
+      "colors": [
+        "pink"
+      ]
+    }
+  ],
+  "signUp": [],
+  "cart": []
+}

@@ -1,0 +1,13 @@
+{
+  "name": "tangle-teezer1-main",
+  "version": "1.0.0",
+  "description": "This respository contains the E-commerce website in which there are the functionality of the e-commerce, mad with HTML5, CSS3 with the BootStrap framework and JavaScript.",
+  "main": "script.js",
+  "scripts": {
+    "server" : "json-server --watch db.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

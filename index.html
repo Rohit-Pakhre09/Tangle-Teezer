@@ -1,0 +1,1174 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Home page title -->
+    <title>Tangle Teezer | Official Tangle Teezer Online Store</title>
+
+    <!-- Home page favicon -->
+    <link rel="icon" href="Pages/Assets/favicon.png">
+
+    <!-- Home page CSS file -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Media Query File -->
+    <link rel="stylesheet" href="media.css">
+
+    <!-- Bootstrap5 Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4Q6Gf2aSP4eDXB8Miphtr37CMZZQ5oXLH2yaXMJ2w8e2ZtHTl7GptT4jmndRuHDT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
+        crossorigin="anonymous"></script>
+
+    <!-- Icons Link -->
+    <link rel="stylesheet" href="https://cdn.hugeicons.com/font/hgi-stroke-rounded.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <!-- Swiper Js -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+</head>
+
+<body>
+
+    <!-- Loader -->
+    <div class="loader-container" id="loader">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header -->
+    <header class="fixed-top bg-white">
+        <!-- Marquee Effect -->
+        <section class="marquee-wrapper">
+            <section class="marquee-track">
+                <div class="marquee-item">Free uk delivery on order over £40</div>
+                <div class="marquee-item">Free uk delivery on order over £40</div>
+                <div class="marquee-item">Free uk delivery on order over £40</div>
+                <div class="marquee-item">Free uk delivery on order over £40</div>
+                <div class="marquee-item">Free uk delivery on order over £40</div>
+                <div class="marquee-item">Free uk delivery on order over £40</div>
+                <div class="marquee-item">Free uk delivery on order over £40</div>
+                <div class="marquee-item">Free uk delivery on order over £40</div>
+                <div class="marquee-item">Free uk delivery on order over £40</div>
+                <div class="marquee-item">Free uk delivery on order over £40</div>
+            </section>
+        </section>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid d-flex align-items-center justify-content-between">
+
+                <!-- Toggle Button for Mobile -->
+                <button class="btn d-lg-none p-0" type="button" id="offcanvasToggle" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasLeft" style="outline: none; border: none;">
+                    <i class="hgi hgi-stroke hgi-menu-02" id="toggleIcon" style="font-size: 25px;"></i>
+                    <i class="hgi hgi-stroke hgi-cancel-01 d-none" id="navClose" style="font-size: 25px;"></i>
+                </button>
+
+                <!-- Desktop Left Nav -->
+                <div class="desktopNavList d-none d-lg-flex"
+                    style="position: relative; z-index: 10; margin-right: 20px;">
+                    <ul class="leftNavOnly navbar-nav left-nav" style="cursor: pointer;">
+                        <li class="nav-item position-relative one" data-target="hairTypeContent">
+                            <a href="Pages/Product-Page/product.html" target="_blank" class="nav-link text-black">Hair
+                                Types</a>
+                        </li>
+                        <li class="nav-item position-relative two" data-target="hairConcernContent">
+                            <a href="Pages/Product-Page/product.html" target="_blank" class="nav-link text-black">Hair
+                                Concern</a>
+                        </li>
+                        <li class="nav-item position-relative three" data-target="productsContent">
+                            <a href="Pages/Product-Page/product.html" target="_blank"
+                                class="nav-link text-black">Products</a>
+                        </li>
+                        <li class="nav-item position-relative four" data-target="kidsContent">
+                            <a href="Pages/Product-Page/product.html" target="_blank"
+                                class="nav-link text-black">Kids</a>
+                        </li>
+                        <li class="nav-item position-relative five" data-target="petTeezerContent">
+                            <a href="Pages/Product-Page/product.html" target="_blank" class="nav-link text-black">Pet
+                                Teezer</a>
+                        </li>
+                    </ul>
+
+                    <!-- Nav Modal on Hover (Full width dropdown) -->
+                    <section class="nav-modal pt-2" style="display:none;">
+                        <div id="hairTypeContent" class="nav-content" style="display:none;">
+                            <div class="photBooth p-3">
+                                <div class="outterBox one">
+                                    <img src="Pages/Assets/Straight-hair.webp" class="img-fluid" alt="">
+                                    <p>Straight & Wavy</p>
+                                    <p class="shopNow one"> <i class="fas fa-arrow-right" id="oneArrow"></i> SHOP NOW
+                                    </p>
+                                </div>
+
+                                <div class="outterBox two">
+                                    <img src="Pages/Assets/Fine-freezy-hair.webp" class="img-fluid" alt="">
+                                    <p>Fine & Fragile</p>
+                                    <p class="shopNow one"> <i class="fas fa-arrow-right" id="twoArrow"></i> SHOP NOW
+                                    </p>
+                                </div>
+
+                                <div class="outterBox three">
+                                    <img src="Pages/Assets/thick-hair.webp" class="img-fluid" alt="">
+                                    <p>Thick or Curly</p>
+                                    <p class="shopNow one"> <i class="fas fa-arrow-right" id="threeArrow"></i> SHOP NOW
+                                    </p>
+                                </div>
+
+                                <div class="outterBox four">
+                                    <img src="Pages/Assets/tight-curls.webp" class="img-fluid" alt="">
+                                    <p>Tight Curls & Coils</p>
+                                    <p class="shopNow one"> <i class="fas fa-arrow-right" id="fourArrow"></i> SHOP NOW
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="hairConcernContent" class="nav-content p-0" style="display:none; cursor: pointer;">
+                            <div class="container-fluid">
+                                <div class="row p-2 justify-content-between align-items-center">
+
+                                    <!-- Left Text Column -->
+                                    <div class="col-12 col-md-5 col-lg-5 border-end border-secondary-subtle pe-3">
+                                        <div class="d-flex flex-column gap-3">
+                                            <div>
+                                                <p class="fw-bold fs-6 mb-1">For Volume</p>
+                                                <p style="font-size: 13px;">Our volumizing solutions lift fine strands
+                                                    and create fuller-looking styles.</p>
+                                            </div>
+                                            <div>
+                                                <p class="fw-bold fs-6 mb-1">Damage and Breakage</p>
+                                                <p style="font-size: 13px;">Repair and strengthen brittle strands with
+                                                    products designed to restore elasticity and reduce breakage.</p>
+                                            </div>
+                                            <div>
+                                                <p class="fw-bold fs-6 mb-1">Frizz and Flyaways</p>
+                                                <p style="font-size: 13px;">Tame the frizz and smooth down flyaways with
+                                                    our hydrating, anti-frizz formulas.</p>
+                                            </div>
+                                            <div>
+                                                <p class="fw-bold fs-6 mb-1">Hair Thinning</p>
+                                                <p style="font-size: 13px;">Boost density and promote healthier growth
+                                                    with thickening treatments.</p>
+                                            </div>
+                                            <div>
+                                                <p class="fw-bold fs-6 mb-1">For Shine</p>
+                                                <p style="font-size: 13px;">Bring back your natural glow with
+                                                    shine-enhancing products.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Right Images Column -->
+                                    <div
+                                        class="col-12 col-md-7 col-lg-7 d-flex gap-2 justify-content-evenly align-items-center">
+                                        <div class="threeImages">
+                                            <img src="Pages/Assets/dealwithhair.webp" class="rounded-4 img-fluid"
+                                                alt="">
+                                            <p class="Images3">Dealing Hair Breakage?</p>
+                                        </div>
+                                        <div class="threeImages">
+                                            <img src="Pages/Assets/scalpcair.webp" class="rounded-4 img-fluid" alt="">
+                                            <p class="Images3">Scalp Care is Hair Care.</p>
+                                        </div>
+                                        <div class="threeImages">
+                                            <img src="Pages/Assets/gentlecare.webp" class="rounded-4 img-fluid" alt="">
+                                            <p class="Images3">Gentle Detangling.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                        <div id="productsContent" class="nav-content" style="display:none; cursor: pointer;">
+                            <div class="row gap-3">
+
+                                <div class="productsItem w-100 d-flex justify-content-between gap-5 p-0">
+                                    <div class="first col-md-4 col-lg-4 h-75"
+                                        style="border-right: 1px solid rgba(138, 136, 136, 0.403); padding-right: 10px;">
+                                        <p class="fw-bold fs-4">Plant Brush</p>
+                                        <p>Eco-friendly brush made with natural plant fibers.</p>
+                                        <p>Gentle on the scalp and promotes healthy hair growth.</p>
+                                        <p>Ideal for daily detangling and scalp massage.</p>
+
+                                        <p class="fw-bold fs-4">New In</p>
+                                        <p>Discover our latest arrivals in grooming essentials.</p>
+                                        <p>Trendy, functional, and made with quality materials.</p>
+                                        <p>Upgrade your hair care routine with something fresh.</p>
+                                    </div>
+
+                                    <div class="second col-md-4 col-lg-4 gap-4 h-75"
+                                        style="border-right: 1px solid rgba(138, 136, 136, 0.403); padding-right: 10px;">
+
+                                        <p class="fw-bold fs-4">Hair Brushes</p>
+
+                                        <div class="d-flex justify-content-between gap-2 align-items-center p-0">
+                                            <div class="centerOne">
+                                                <p class="fw-bold fs-4">Detangling</p>
+                                                <p>Gentle brushes that detangle hair without breakage.</p>
+                                                <p>Works well on wet or dry hair.</p>
+                                                <p>Suitable for all hair types.</p>
+                                                <p>Ergonomic handles for comfortable use.</p>
+                                                <p>Ideal for daily use and scalp massage.</p>
+                                                <p>Promotes healthy hair growth.</p>
+                                            </div>
+                                            <div class="centerTwo d-flex flex-column justify-content-between gap-2">
+                                                <div class="centerUp">
+                                                    <p class="fw-bold fs-4">Drying</p>
+                                                    <p>Brushes designed for faster drying.</p>
+                                                    <p>Heat-resistant bristles.</p>
+                                                    <p class="fw-bold fs-4">Wellness</p>
+                                                    <p>Scalp brushes that improve circulation.</p>
+                                                    <p>Stress-relieving massage brushes.</p>
+                                                </div>
+                                                <div class="centerDown"></div>
+                                            </div>
+                                            <div
+                                                class="centerThree d-flex flex-column justify-content-between gap-2 pe-5">
+                                                <div class="rightUp">
+                                                    <p class="fw-bold fs-4">Styling</p>
+                                                    <p>Brushes that help shape curls & waves.</p>
+                                                    <p>Provide smooth, frizz-free finishes.</p>
+                                                    <p>Durable and easy to handle design.</p>
+                                                    <p class="fw-bold fs-4">Eco</p>
+                                                    <p>Made with sustainable.</p>
+                                                    <p>Biodegradable included.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                    </div>
+
+                                    <div class="third col-md-4 col-lg-4">
+                                        <div class="rightDown d-flex flex-column gap-3">
+                                            <div class="endLeft">
+                                                <p class="fw-bold fs-4">Sprays</p>
+                                                <p>Lightweight sprays to add volume.</p>
+                                                <p>Heat protection for styling tools.</p>
+                                                <p>Frizz control and shine-enhancing.</p>
+                                                <p>Natural ingredients, safe for daily use.</p>
+                                            </div>
+
+                                            <div class="endRight d-flex flex-column gap-3">
+                                                <img src="Pages/Assets/endUp.avif" class="w-50 rounded-4 img-fluid"
+                                                    alt="Volume Spray" style="max-width:150px;">
+                                                <p>Volume Boost Spray</p>
+
+                                                <img src="Pages/Assets/edDown.avif" class="w-50 rounded-4 img-fluid"
+                                                    alt="Shine Spray" style="max-width:150px;">
+                                                <p>Gloss & Shine Spray</p>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+
+                        <div id="petTeezerContent" class="nav-content" style="display:none;">
+                            <div class="container-fluid">
+                                <div class="row p-2 align-items-center">
+
+                                    <!-- Left Text Column -->
+                                    <div class="col-12 col-md-5 col-lg-5 border-end border-secondary-subtle pe-3">
+                                        <div class="d-flex flex-column gap-3">
+                                            <div>
+                                                <p class="fw-bold fs-6 mb-1">Detangling</p>
+                                                <p style="font-size: 13px;">Our volumizing solutions lift fine strands
+                                                    and create fuller-looking styles.</p>
+                                            </div>
+                                            <div>
+                                                <p class="fw-bold fs-6 mb-1">DeShading</p>
+                                                <p style="font-size: 13px;">Repair and strengthen brittle strands with
+                                                    products designed to restore elasticity and reduce breakage.</p>
+                                            </div>
+                                            <div>
+                                                <p class="fw-bold fs-6 mb-1">Puppy</p>
+                                                <p style="font-size: 13px;">Tame the frizz and smooth down flyaways with
+                                                    our hydrating, anti-frizz formulas.</p>
+                                            </div>
+                                            <div>
+                                                <p class="fw-bold fs-6 mb-1">Cat</p>
+                                                <p style="font-size: 13px;">Boost density and promote healthier growth
+                                                    with thickening treatments.</p>
+                                            </div>
+
+                                        </div>
+                                    </div>
+
+                                    <!-- Right Images Column -->
+                                    <div
+                                        class="col-12 col-md-7 col-lg-7 d-flex gap-2 justify-content-evenly align-items-center">
+                                        <div class="threeImages">
+                                            <img src="Pages/Assets/dogBreed.webp" class="h-100 rounded-4 img-fluid"
+                                                class="rounded-4 img-fluid" alt="">
+                                            <p class="Images3">Dog Breed & Guide</p>
+                                        </div>
+                                        <div class="threeImages">
+                                            <img src="Pages/Assets/catBreed.webp" class="h-100 rounded-4 img-fluid"
+                                                alt="">
+                                            <p class="Images3">Cat Breed & Guide</p>
+                                        </div>
+                                        <div class="threeImages">
+                                            <img src="Pages/Assets/howToGroom.webp" class="h-100 rounded-4 img-fluid"
+                                                alt="">
+                                            <p class="Images3">How to Groom</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <!-- Logo Centered -->
+                <a class="navbar-brand mx-auto" href="#">
+                    <a href="/index.html"><img src="/Assets/Logo.png" alt="Logo" height="34px"
+                            style="cursor: pointer;"></a>
+                </a>
+
+                <!-- Right Nav (Always Visible) -->
+                <div class="d-lg-flex align-items-center pe-2">
+                    <ul class="navbar-nav right-nav gap-1 d-flex flex-row">
+                        <li class="nav-item"><a href="/Pages/Product-Page/product.html" target="_blank"
+                                class="nav-link text-black mt-1">Explore</a></li>
+                        <li class="nav-item"><a href="/Pages/Profile-Page/profile.html" target="_blank"
+                                class="nav-link text-black"><i class="hgi hgi-stroke hgi-user"
+                                    style="font-size: 20px;"></i></a></li>
+                        <li class="nav-item"><a href="/Pages/Product-Page/product.html" target="_blank"
+                                class="nav-link text-black"><i class="hgi hgi-stroke hgi-search-01"
+                                    style="font-size: 20px;"></i></a></li>
+                        <li class="nav-item position-relative h-0">
+                            <a href="/Pages/Profile-Page/profile.html" class="nav-link text-black" id="cart">
+                                <i class="hgi hgi-stroke hgi-shopping-bag-02 cart" style="font-size: 20px;"></i>
+                                <span id="num"
+                                    class="cart-count badge rounded-pill bg-danger position-absolute top-98 right-50 translate-middle mt-1"
+                                    style="top: 10px"></span>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+    <!-- Mobile Left Nav Menu -->
+    <div class="offcanvas offcanvas-start d-block d-sm-block d-md-block d-lg-none h-100" tabindex="-1"
+        id="offcanvasLeft">
+        <div class="offcanvas-body p-0">
+            <ul class="navbar-nav left-nav-mobile p-2" id="mobileMenuList" style="cursor: pointer; display: block;">
+                <!-- Hair Types -->
+                <li class="nav-item">
+                    <a href="#" class="nav-link text-black p-0">
+                        <header class="d-flex justify-content-between align-items-center mobileHairType">
+                            <span class="me-2 p-2 fw-bold" style="font-size: 13px;">Hair Types</span>
+                            <i class="hgi hgi-stroke hgi-arrow-right-01"></i>
+                        </header>
+                        <hr>
+                    </a>
+                </li>
+
+                <!-- Hair Concerns -->
+                <li class="nav-item"><a href="#" class="nav-link text-black p-0">
+                        <header class="d-flex justify-content-between align-items-center mobileHairConcern">
+                            <span class="me-2 p-2 fw-bold" style="font-size: 13px;">Hair Concern</span>
+                            <i class="hgi hgi-stroke hgi-arrow-right-01"></i>
+                        </header>
+                        <hr>
+                    </a>
+                </li>
+
+                <!-- Products -->
+                <li class="nav-item"><a href="#" class="nav-link text-black p-0">
+                        <header class="d-flex justify-content-between align-items-center mobileProducts">
+                            <span class="me-2 p-2 fw-bold" style="font-size: 13px;">Products</span>
+                            <i class="hgi hgi-stroke hgi-arrow-right-01"></i>
+                        </header>
+                        <hr>
+                    </a>
+                </li>
+
+                <!-- Kids -->
+                <li class="nav-item"><a href="#" class="nav-link text-black p-0">
+                        <header class="d-flex justify-content-between align-items-center mobileKids">
+                            <span class="me-2 p-2 fw-bold" style="font-size: 13px;">Kids</span>
+                        </header>
+                        <hr>
+                    </a>
+                </li>
+
+                <!-- Pet Teezer -->
+                <li class="nav-item"><a href="#" class="nav-link text-black p-0">
+                        <header class="d-flex justify-content-between align-items-center mobilePetTeezer">
+                            <span class="me-2 p-2 fw-bold" style="font-size: 13px;">Pet Teezer</span>
+                            <i class="hgi hgi-stroke hgi-arrow-right-01"></i>
+                        </header>
+                        <hr>
+                    </a>
+                </li>
+
+                <li class="nav-item"><a href="#" class="nav-link text-black p-0">
+                        <header class="d-flex justify-content-between align-items-center mobileExplore">
+                            <span class="me-2 p-2 fw-bold" style="font-size: 13px;">Explore</span>
+                            <i class="hgi hgi-stroke hgi-arrow-right-01"></i>
+                        </header>
+                        <hr>
+                    </a>
+                </li>
+
+                <li class="nav-item"><a href="#" class="nav-link text-black p-0">
+                        <header class="d-flex justify-content-between align-items-center mobileQuiz">
+                            <span class="me-2 p-2 fw-bold" style="font-size: 13px;">Quiz</span>
+                        </header>
+                        <hr>
+                    </a>
+                </li>
+
+                <li class="p-2" style="font-size: 12px; margin-top: -10px;">Delivery & Returns</li>
+                <li class="p-2" style="font-size: 12px; margin-top: -2px;">Contact Us</li>
+                <li class="p-2" style="font-size: 12px;">FAQ</li>
+
+            </ul>
+
+            <!-- ------------------------------------------------------------------------------------------------------------------------------ -->
+
+            <!-- Nested Offcanvas -->
+            <div class="offcanvas offcanvas-start w-100 d-block d-sm-block d-md-block d-lg-none" tabindex="-1"
+                id="offcanvasHairType">
+                <div class="offcanvas-header d-flex align-items-center position-relative px-3"
+                    style="height: 56px; background-color: rgba(213, 213, 213, 0.322)">
+                    <!-- Back Button -->
+                    <span class="offcanvas-title d-flex align-items-center z-1" type="button"
+                        data-bs-dismiss="offcanvas" style="cursor: pointer;">
+                        <i class="hgi hgi-stroke hgi-arrow-left-01 me-2"></i> Back
+                    </span>
+
+                    <!-- Centered Title -->
+                    <h5 id="offcanvasMainTitle"
+                        class="m-0 fw-bold position-absolute top-50 start-50 translate-middle text-center">
+                        Hair Types
+                    </h5>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="list-unstyled fw-bold overflow-auto h-75">
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">Straight & Wavy</a></li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">Fine & Fragile</a></li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">Thick and Curly</a></li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">Tight Curls and Coils</a>
+                        </li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">View All Hair Type</a></li>
+                        <hr>
+                    </ul>
+                    <li class="p-0 mb-3" style="font-size: 12px; list-style:none;">Delivery & Returns</li>
+                    <li class="p-0 mb-3" style="font-size: 12px; list-style:none;">Contact Us</li>
+                    <li class="p-0 mb-3 list-unstyled" style="font-size: 12px; list-style:none;">FAQ</li>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasHairConcern">
+                <div class="offcanvas-header d-flex align-items-center position-relative px-3 w-100"
+                    style="height: 56px; background-color: rgba(213, 213, 213, 0.322)">
+                    <!-- Back Button -->
+                    <span class="offcanvas-title d-flex align-items-center z-1" type="button"
+                        data-bs-dismiss="offcanvas" style="cursor: pointer;">
+                        <i class="hgi hgi-stroke hgi-arrow-left-01 me-2"></i> Back
+                    </span>
+
+                    <!-- Centered Title -->
+                    <h5 id="offcanvasMainTitle"
+                        class="m-0 fw-bold position-absolute top-50 start-50 translate-middle text-center">
+                        Hair Concern
+                    </h5>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="list-unstyled fw-bold overflow-auto h-75">
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">For Volume</a></li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">Damage & Breakage</a></li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">Frizz & Flyaways</a></li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">Hair Thinning</a>
+                        </li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">For Shine</a></li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">How to deal with the hair
+                                breakage</a></li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">Scalp hair is hair care</a>
+                        </li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">Gentle Detangling</a></li>
+                        <hr>
+                    </ul>
+                    <li class="p-0 mb-3" style="font-size: 12px; list-style:none;">Delivery & Returns</li>
+                    <li class="p-0 mb-3" style="font-size: 12px; list-style:none;">Contact Us</li>
+                    <li class="p-0 mb-3 list-unstyled" style="font-size: 12px; list-style:none;">FAQ</li>
+                </div>
+            </div>
+
+            <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasProducts">
+                <div class="offcanvas-header d-flex align-items-center position-relative px-3 w-100"
+                    style="height: 56px; background-color: rgba(213, 213, 213, 0.322)">
+                    <!-- Back Button -->
+                    <span class="offcanvas-title d-flex align-items-center z-1" type="button"
+                        data-bs-dismiss="offcanvas" style="cursor: pointer;">
+                        <i class="hgi hgi-stroke hgi-arrow-left-01 me-2"></i> Back
+                    </span>
+
+                    <!-- Centered Title -->
+                    <h5 id="offcanvasMainTitle"
+                        class="m-0 fw-bold position-absolute top-50 start-50 translate-middle text-center">
+                        Products
+                    </h5>
+                </div>
+                <div class="offcanvas-body">
+                    <ul class="list-unstyled fw-bold overflow-auto h-75">
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-flex justify-content-between py-1">Plant
+                                Brush <i class="hgi hgi-stroke hgi-arrow-right-01"></i></a></li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-flex justify-content-between py-1">New
+                                In <i class="hgi hgi-stroke hgi-arrow-right-01"></i></a></li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-flex justify-content-between py-1">Hairbrushes
+                                <i class="hgi hgi-stroke hgi-arrow-right-01"></i></a></li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-flex justify-content-between py-1">Sprays <i
+                                    class="hgi hgi-stroke hgi-arrow-right-01"></i></a>
+                        </li>
+                        <hr>
+                        <li><a href="/Pages/Product-Page/product.html"
+                                class="text-decoration-none text-dark d-block py-1">View All Products</a></li>
+                        <hr>
+                    </ul>
+                    <li class="p-0 mb-3" style="font-size: 12px; list-style:none;">Delivery & Returns</li>
+                    <li class="p-0 mb-3" style="font-size: 12px; list-style:none;">Contact Us</li>
+                    <li class="p-0 mb-3 list-unstyled" style="font-size: 12px; list-style:none;">FAQ</li>
+                </div>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasPetTeezer">
+            <div class="offcanvas-header d-flex align-items-center position-relative px-3 w-100"
+                style="height: 56px; background-color: rgba(213, 213, 213, 0.322)">
+                <!-- Back Button -->
+                <span class="offcanvas-title d-flex align-items-center z-1" type="button" data-bs-dismiss="offcanvas"
+                    style="cursor: pointer;">
+                    <i class="hgi hgi-stroke hgi-arrow-left-01 me-2"></i> Back
+                </span>
+
+                <!-- Centered Title -->
+                <h5 id="offcanvasMainTitle"
+                    class="m-0 fw-bold position-absolute top-50 start-50 translate-middle text-center">
+                    Pet Teezer
+                </h5>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="list-unstyled fw-bold overflow-auto h-75">
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">Detangling</a></li>
+                    <hr>
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">De-Shedding</a></li>
+                    <hr>
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">Puppy</a></li>
+                    <hr>
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">Cat</a>
+                    </li>
+                    <hr>
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">Dog Breed & Brush Guide</a></li>
+                    <hr>
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">Cat Breed & Brush Guide</a></li>
+                    <hr>
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">How to Groom</a>
+                    </li>
+                    <hr>
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">View All Pet Teezer</a></li>
+                    <hr>
+                </ul>
+                <li class="p-0 mb-3" style="font-size: 12px; list-style:none;">Delivery & Returns</li>
+                <li class="p-0 mb-3" style="font-size: 12px; list-style:none;">Contact Us</li>
+                <li class="p-0 mb-3 list-unstyled" style="font-size: 12px; list-style:none;">FAQ</li>
+            </div>
+        </div>
+
+        <div class="offcanvas offcanvas-start w-100" tabindex="-1" id="offcanvasExplore">
+            <div class="offcanvas-header d-flex align-items-center position-relative px-3 w-100"
+                style="height: 56px; background-color: rgba(213, 213, 213, 0.322)">
+                <!-- Back Button -->
+                <span class="offcanvas-title d-flex align-items-center z-1" type="button" data-bs-dismiss="offcanvas"
+                    style="cursor: pointer;">
+                    <i class="hgi hgi-stroke hgi-arrow-left-01 me-2"></i> Back
+                </span>
+
+                <!-- Centered Title -->
+                <h5 id="offcanvasMainTitle"
+                    class="m-0 fw-bold position-absolute top-50 start-50 translate-middle text-center">
+                    Explore
+                </h5>
+            </div>
+            <div class="offcanvas-body">
+                <ul class="list-unstyled fw-bold overflow-auto h-75">
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">Straight & Wavy</a></li>
+                    <hr>
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">Fine & Fragile</a></li>
+                    <hr>
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">Thick and Curly</a></li>
+                    <hr>
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">Tight Curls and Coils</a>
+                    </li>
+                    <hr>
+                    <li><a href="/Pages/Product-Page/product.html"
+                            class="text-decoration-none text-dark d-block py-1">View All Hair Type</a></li>
+                    <hr>
+                </ul>
+                <li class="p-0 mb-3" style="font-size: 12px; list-style:none;">Delivery & Returns</li>
+                <li class="p-0 mb-3" style="font-size: 12px; list-style:none;">Contact Us</li>
+                <li class="p-0 mb-3 list-unstyled" style="font-size: 12px; list-style:none;">FAQ</li>
+            </div>
+        </div>
+    </div>
+
+    <!-- Side Bar Carousel -->
+    <div class="container-fluid px-0 h-100" style="margin-top: 100px;">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                    aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4"
+                    aria-label="Slide 5"></button>
+            </div>
+
+            <div class="carousel-inner">
+
+                <!-- Slide 1 - with video and left-aligned white text -->
+                <div class="carousel-item active">
+                    <video class="d-block w-100 video-responsive" autoplay muted loop playsinline>
+                        <source src="Pages/Assets/slideshow-1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <div class="carousel-text">
+                        <p class="fw-bold text-white">The Extra Gentle touch</p>
+                        <p class="text-white">Worried about hair fall & breakage? Our new extra Gentle Hairbrush is for
+                            you.</p>
+                        <div class="gentleBtn text-white">Shop Extra Gentle</div>
+                    </div>
+                </div>
+
+                <!-- Slide 2 - with image and right-aligned black text -->
+                <div class="carousel-item">
+                    <img src="Pages/Assets/slideshow-2.png" class="d-block w-100 img-fluid" alt="Slide 2">
+                    <div class="carousel-text2">
+                        <p class="fw-bold text-dark">Your Summer Style Sidekick</p>
+                        <p class="text-dark">Booked and busy all summer long? Meet your effortless styling bestie.</p>
+                        <div class="gentleBtn text-dark">Shop Extra Gentle</div>
+                    </div>
+                </div>
+
+                <!-- Slide 3 - with image and left-aligned white text -->
+                <div class="carousel-item">
+                    <img src="Pages/Assets/slideshow-3.png" class="d-block w-100 img-fluid" alt="Slide 3">
+                    <div class="carousel-text">
+                        <p class="fw-bold text-white">Summer Shine Simplified</p>
+                        <p class="text-white">Get smooth, frizz-free hair even in humid weather with our new brush.</p>
+                        <div class="gentleBtn text-white">Shop Now</div>
+                    </div>
+                </div>
+
+                <!-- Slide 4 - with image and right-aligned black text -->
+                <div class="carousel-item">
+                    <img src="Pages/Assets/slideshow-4.png" class="d-block w-100 img-fluid" alt="Slide 4">
+                    <div class="carousel-text2">
+                        <p class="fw-bold text-dark">Style Without Limits</p>
+                        <p class="text-dark">For hair that’s ready for anything—any time, anywhere.</p>
+                        <div class="gentleBtn text-dark">Discover More</div>
+                    </div>
+                </div>
+
+                <!-- Slide 5 - with image and left-aligned white text -->
+                <div class="carousel-item">
+                    <img src="Pages/Assets/slideshow-5.png" class="d-block w-100 img-fluid" alt="Slide 5">
+                    <div class="carousel-text">
+                        <p class="fw-bold text-white">Smooth. Sleek. Stunning.</p>
+                        <p class="text-white">Perfect your look with our latest detangling innovation.</p>
+                        <div class="gentleBtn text-white">Try It Now</div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Carousel Navigation Buttons (Place inside the carousel but outside .carousel-inner) -->
+            <button class="carousel-control-prev custom-carousel-btn" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next custom-carousel-btn" type="button"
+                data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                <span class="carousel-control-next-icon"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+    </div>
+
+    <!-- Shop by hair type -->
+    <section class="container">
+        <p class="fw-bold fs-1 text-center p-5">Shop by hair type</p>
+        <div id="skinTypeContent" class="nav-content-alt container py-4 pt-0" style="cursor: pointer;">
+            <div class="row g-5 p-0">
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center border-0 outterBox-alt one-alt">
+                        <img src="Pages/Assets/Straight-hair.webp" class="rounded-4 card-img-top img-fluid"
+                            alt="Type A">
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-4">Straight hair</p>
+                            <p class="shopNow-alt one-alt text-dark fw-bold">
+                                SHOP NOW
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center border-0 outterBox-alt two-alt">
+                        <img src="Pages/Assets/Fine-freezy-hair.webp" class="rounded-4 card-img-top img-fluid"
+                            alt="Type B">
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-4">Fine or Fragile</p>
+                            <p class="shopNow-alt two-alt text-dark fw-bold">
+                                SHOP NOW
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center border-0 outterBox-alt three-alt">
+                        <img src="Pages/Assets/thick-hair.webp" class="rounded-4 card-img-top img-fluid" alt="Type C">
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-4">Thick or Curly</p>
+                            <p class="shopNow-alt three-alt text-dark fw-bold">
+                                SHOP NOW
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-sm-6 col-lg-3">
+                    <div class="card text-center border-0 outterBox-alt four-alt">
+                        <img src="Pages/Assets/tight-curls.webp" class="rounded-4 card-img-top img-fluid" alt="Type D">
+                        <div class="card-body">
+                            <p class="card-text fw-bold fs-4">Tight Curls & Coils</p>
+                            <p class="shopNow-alt four-alt text-dark fw-bold">
+                                SHOP NOW
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Most wanted Products -->
+    <div class="container-fluid mt-5 mb-5">
+        <div class="d-flex flex-column flex-md-row justify-content-between align-items-start align-items-md-center">
+            <p class="fw-bold fs-1 mb-3 mb-md-0">Most Wanted Products</p>
+
+            <!-- Use <a> styled as button -->
+            <a href="Pages/Product-Page/product.html" target="_blank" class="btn btn-outline-secondary">View All</a>
+        </div>
+        <p class="fw-bold mb-5 mb-md-0 text-muted">Top-rated. Best-selling. Your next favorite is waiting in our Most
+            Wanted collection!</p>
+
+        <div class="row mt-4">
+            <div id="productContainer" class="d-flex overflow-auto"></div>
+        </div>
+    </div>
+
+    <!-- Hair Fall section -->
+    <section class="container pb-5">
+        <div class="row p-3" style="min-height: 90vh;">
+            <div class="col-12 col-md-7 p-0">
+                <img src="Pages/Assets/hairFall.webp" class="d-block w-100 h-100 img-fluid object-fit-cover"
+                    alt="hair Fall" style="object-fit: cover;">
+            </div>
+
+            <div class="col-12 col-md-5 p-0 d-flex flex-column justify-content-between"
+                style="background-color: #F8F8F8;">
+                <div class="textCorner p-4">
+                    <p class="fw-bold fs-2 w-75">Enjoy less breakage, less hair fall and more confidence</p>
+                    <p class="fw-bold fs-6 w-75">Need extra-gentle haircare? Meet the Ultimate Detangler Extra
+                        Gentle.</p>
+                    <a href="#"><button id="textCornerBtn">Discover Now</button></a>
+                </div>
+                <img src="Pages/Assets/asideHairFall.webp" class="img-fluid w-100 mt-auto" alt="aside Hair Fall">
+            </div>
+        </div>
+    </section>
+
+    <!-- Routine Banner -->
+    <div class="routineBanner container-fluid mb-5">
+        <img src="Pages/Assets/routine style banner.webp" class="w-100 img-fluid rounded-4" alt="">
+
+        <div class="routineBannerText">
+            <p class="fw-bold fs-1">Restyle your routine</p>
+            <p class="fw-bold">Unsure how to put the care in haircare? Discover the tools you need to turn your hair
+                goals into a reality.</p>
+            <a href="#"></a><button id="routineBtn">Take the Quiz</button></>
+        </div>
+    </div>
+
+    <!-- The new Ultimate Detangler Extra Gentle -->
+    <div class="d-flex flex-column justify-content-center align-items-center w-100 detangler"
+        style="background-color: #F8F8F8; padding: 10px; margin-top: 10px; height: 200px;">
+        <div class="fw-bold fs-1">
+            The new Ultimate Detangler Extra Gentle
+        </div>
+        <div>
+            <p>Our first brush for a hair concern</p>
+        </div>
+    </div>
+
+    <!-- Quote Cararousel -->
+    <div class="container-fluid mt-5 mb-5">
+        <div class="row">
+            <div class="swiper mt-5 col-12" style="padding: 9px;">
+                <div class="swiper-wrapper text-center bg-white">
+                    <div class="swiper-slide">
+                        <h5 class="fw-bold quote-text">
+                            “Tangle Teezer is a life saver, it never leaves my handbag.”
+                        </h5>
+                        <p class="text-muted quote-author">— Maya Jama</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <h5 class="fw-bold quote-text">
+                            “Oh my god, My daughter adores it, and it even works on my curly
+                            hair.<br> I don’t know who invented it, but thank you.”
+                        </h5>
+                        <p class="text-muted quote-author">— Salma Hayek</p>
+                    </div>
+                    <div class="swiper-slide">
+                        <h5 class="fw-bold quote-text">
+                            "I love the Tangle Teezer; I use that in the shower to comb my hair out<br> because it gets
+                            really tangled up!"
+                        </h5>
+                        <p class="text-muted quote-author">— Elle Fanning</p>
+                    </div>
+                </div>
+
+                <!-- Swiper Pagination -->
+                <div class="swiper-pagination mt-2"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Breed Toy -->
+    <section class="breedToy mt-5 d-flex justify-content-center"
+        style="background-color: #DDF0E8; height: auto; padding: 10px;">
+        <div class="row">
+            <div class="imgSection col-12 col-sm-12 col-md-6 col-lg-6 p-2 pb-sm-5">
+                <img src="Pages/Assets/petPaw.webp" class="w-100 img-fluid rounded-3" alt="Pet Paw">
+            </div>
+            <div
+                class="writtingSection col-12 col-sm-12 col-md-6 col-lg-6 d-flex flex-column justify-content-center align-items-end">
+                <p class="fw-bold fs-3">Loved by humans, adored by pets.</p>
+                <p class="text-end">Pet Teezer is designed to gently detangle, de-shed and pamper.<br> Find the perfect
+                    brush for your pooch or feline friend and their fur, whatever the breed.</p>
+
+                <button id="ShopPetTeezer">SHOP PET TEEZER</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Grid Posts -->
+    <section>
+        <!-- Title Section -->
+        <div class="container text-center my-5">
+            <p class="fw-bold fs-1">The new Ultimate Detangler Extra Gentle</p>
+            <p class="text-muted">Our first brush for a hair concern</p>
+        </div>
+
+        <!-- 5-Column Grid -->
+        <div class="container">
+            <div class="custom-grid">
+                <!-- First 9 items only -->
+                <img src="Pages/Assets/grid-10.jpg" class="grid-item" alt="Image 2">
+                <img src="Pages/Assets/grid-1.jpg" class="grid-item" alt="Image 2">
+                <img src="Pages/Assets/grid-2.webp" class="grid-item" alt="Image 3">
+                <img src="Pages/Assets/grid-3.webp" class="grid-item" alt="Image 4">
+                <img src="Pages/Assets/grid-5.webp" class="grid-item" alt="Image 5">
+                <img src="Pages/Assets/grid-6.webp" class="grid-item" alt="Image 6">
+                <img src="Pages/Assets/grid-7.webp" class="grid-item" alt="Image 7">
+                <img src="Pages/Assets/grid-9.webp" class="grid-item" alt="Image 7">
+                <img src="Pages/Assets/grid-8.webp" class="grid-item" alt="Image 8">
+            </div>
+        </div>
+    </section>
+
+    <!-- Three Pets Section -->
+    <section class="mt-5 mb-1">
+        <div class="row p-4 bg-light">
+            <div class="textContent col-12 col-sm-12 col-md-4 col-lg-4 d-flex flex-column justify-content-center p-2">
+                <p class="fw-bold fs-1 text-center">Our pet grooming guides</p>
+                <p class="fw-bold text-center">Want the low-down on how to groom your pet as well as top tips from
+                    professionals on how to care for their fur? You’re in the right place. Bring on the pampering!</p>
+            </div>
+            <div class="col-12 col-sm-12 col-md-8 col-lg-8 p-2">
+                <div class="row">
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 position-relative pb-3">
+                        <a href=""><img src="Pages/Assets/dogBreed.webp" class="w-100 img-fluid rounded-5 downPets"></a>
+                        <div class="desc position-absolute bottom-0 ps-4 pb-4"
+                            style="user-select: none; cursor: pointer;">
+                            <p class="fw-bold fs-5 text-muted">Dog Breed & Brush Guide</p>
+                            <span>Read Guide</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 position-relative pb-3">
+                        <a href=""><img src="Pages/Assets/catBreed.webp" class="w-100 img-fluid rounded-5 downPets"></a>
+                        <div class="desc position-absolute bottom-0 ps-4 pb-4"
+                            style="user-select: none; cursor: pointer;">
+                            <p class="fw-bold fs-5 text-muted">Cat Breed & Brush Guide</p>
+                            <span>Read Guide</span>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-12 col-md-4 col-lg-4 position-relative pb-3">
+                        <a href=""><img src="Pages/Assets/howToGroom.webp"
+                                class="w-100 img-fluid rounded-5 downPets"></a>
+                        <div class="desc position-absolute bottom-0 ps-4 pb-4"
+                            style="user-select: none; cursor: pointer;">
+                            <p class="fw-bold fs-5 text-muted">How to Groom</p>
+                            <span>Read Guide</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Section of girl -->
+    <section class="position-relative">
+
+        <video src="Pages/Assets/Down Girl Video.mp4" class="w-100" autoplay muted loop></video>
+
+        <!-- Overlay Content in Flexbox Row -->
+        <section class="position-absolute d-flex gap-4 justify-content-between text-white p-4"
+            style="bottom: 20px; left: 50px; right: 50px;">
+
+            <!-- Text Content -->
+            <div class="downGirlText">
+                <p class="fs-2 fw-bold mb-2">Master your routine</p>
+                <p style="max-width: 500px;">
+                    Get inspired with our must-watch how-to videos, interviews and stories, and all the answers to your
+                    haircare questions. It’s like reading a magazine at the salon, only better.
+                </p>
+                <div id="routineGirl" class="mt-3">View Blogs</div>
+            </div>
+
+            <!-- Card Content -->
+            <div class="d-flex flex-column gap-3 cardSection">
+                <div class="card mb-3" style="max-width: 400px; cursor: pointer;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Pages/Assets/detangleHair.avif" class="w-100 img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body d-flex flex-column m-0 justify-content-between h-100">
+                                <p class="card-title fw-bold">How to Detangle hair with less breakage?</p>
+                                <p class="card-text"><small class="text-body-secondary">LEARN MORE</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card mb-3" style="max-width: 400px; cursor: pointer;">
+                    <div class="row g-0">
+                        <div class="col-md-4">
+                            <img src="Pages/Assets/trendingReads.avif" class="w-100 img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body d-flex flex-column justify-content-between h-100">
+                                <p class="card-title fw-bold">Trending: Benefits of rosemarry oil?</p>
+                                <p class="card-text"><small class="text-body-secondary">LEARN MORE</small>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+    </section>
+
+    <!-- Footer -->
+    <section class="py-4">
+        <div class="container">
+            <div class="row p-2 wardCollection justify-content-center">
+                <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center align-items-center">
+                    <img src="Pages/Assets/ward-1.webp" class="img-fluid" style="height: 80px; width: 80px;"
+                        alt="Ward 1">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center align-items-center">
+                    <img src="Pages/Assets/ward-2.webp" class="img-fluid" style="height: 80px; width: 80px;"
+                        alt="Ward 2">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center align-items-center">
+                    <img src="Pages/Assets/ward-3.webp" class="img-fluid" style="height: 80px; width: 80px;"
+                        alt="Ward 3">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center align-items-center">
+                    <img src="Pages/Assets/ward-4.webp" class="img-fluid" style="height: 80px; width: 80px;"
+                        alt="Ward 4">
+                </div>
+                <div class="col-6 col-sm-4 col-md-2 d-flex justify-content-center align-items-center">
+                    <img src="Pages/Assets/ward-5.webp" class="img-fluid" style="height: 80px; width: 80px;"
+                        alt="Ward 5">
+                </div>
+            </div>
+        </div>
+
+        <!-- Footer -->
+        <footer class="mt-5">
+            <div class="container">
+
+                <div class="row" style="cursor: pointer;">
+
+                    <div class="contact col-12 col-sm-12 col-md-6 col-lg">
+                        <p class="fw-bold">Contact Us</p>
+                        <p class="fw-bold">Delivery & Returns</p>
+                        <p class="fw-bold">Help & FAQs</p>
+                    </div>
+                    <div class="contact col-12 col-sm-12 col-md-6 col-lg">
+                        <p class="fw-bold">Tangle Teezer</p>
+                        <p>About US</p>
+                        <p>Careers</p>
+                        <p>Replace your Hairbrush</p>
+                        <p>Review</p>
+                    </div>
+                    <div class="contact col-12 col-sm-12 col-md-6 col-lg">
+                        <p class="fw-bold">Legal</p>
+                        <p>Cookie Notice</p>
+                        <p>Corporate Social Responsibility</p>
+                        <p>Counterfeits & QR Codes</p>
+                        <p>Modern Slavery</p>
+                        <p>Privacy Notice</p>
+                        <p>Promotions</p>
+                        <p>Sustainability</p>
+                        <p>Tangle T eezer IP</p>
+                        <p>Terms & Conditions</p>
+                    </div>
+                    <div class="contact col-12 col-sm-12 col-md-6 col-lg">
+                        <p class="typing-text" id="typingText" style="height: 30px;"></p>
+                        <p style="height: 40px;">Sign up to our newsletter for <b>10% off your first order!</b></p>
+                        <input type="email" placeholder="Email Address" id="footerEmail">
+                        <p style="font-size: 8px; margin-top: 10px;">By submitting your details, you confirm that you
+                            agree to the storing and processing of your personal data by Tangle Teezer as described in
+                            our ‘Privacy Notice’</p>
+                    </div>
+
+                </div>
+
+                <div class="d-flex justify-content-between align-items-center p-3" style="cursor: pointer;">
+
+                    <div class="footerLine">
+                        © 2025 Tangle Teezer All Rights Reserved. Site by
+                        <span style="text-decoration: underline;">Velstar</span>
+                    </div>
+
+                    <div class="icons d-flex gap-2">
+                        <a href="https://www.instagram.com/tangleteezer/" target="_blank">
+                            <i class="fa-brands fa-instagram"
+                                style="font-size: 25px; cursor: pointer; color: black;"></i>
+                        </a>
+                        <a href="https://www.facebook.com/p/Tangle-Teezer-100064278055611/" target="_blank">
+                            <i class="fa-brands fa-facebook"
+                                style="font-size: 25px; cursor: pointer; color: black;"></i>
+                        </a>
+                        <a href="https://twitter.com/TangleTeezerUSA" target="_blank">
+                            <i class="fa-brands fa-x-twitter"
+                                style="font-size: 25px; cursor: pointer; color: black;"></i>
+                        </a>
+                        <a href="https://uk.pinterest.com/tangleteezeruk/" target="_blank">
+                            <i class="fa-brands fa-pinterest"
+                                style="font-size: 25px; cursor: pointer; color: black;"></i>
+                        </a>
+                        <a href="https://www.youtube.com/user/TheTangleTeezer/featured" target="_blank">
+                            <i class="fa-brands fa-youtube" style="font-size: 25px; cursor: pointer; color: black;"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </footer>
+    </section>
+
+    <!-- Loader -->
+    <div id="loader" class="loader-overlay" style="display: none;">
+        <div class="loader-circle"></div>
+    </div>
+
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+</body>
+
+</html>
