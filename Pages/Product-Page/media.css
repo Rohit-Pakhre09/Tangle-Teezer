@@ -1,0 +1,199 @@
+@media (max-width: 768px) {
+
+    .right-nav li:nth-child(1),
+    .right-nav li:nth-child(3) {
+        display: none !important;
+    }
+
+    .offcanvas {
+        display: block;
+    }
+
+    .carousel-text,
+    .carousel-text2 {
+        top: 20%;
+        width: 50%;
+    }
+
+    .gentleBtn {
+        padding: 5px;
+    }
+
+    .carousel-text p.fw-bold,
+    .carousel-text2 p.fw-bold {
+        font-size: 10px;
+        margin: 0;
+    }
+
+    .carousel-text p:not(.fw-bold),
+    .carousel-text2 p:not(.fw-bold) {
+        font-size: 7px;
+        margin: 0;
+    }
+
+    .routineBannerText p.fw-bold {
+        font-size: 7px !important;
+        top: 0;
+        transform: translateY(-120%);
+        color: white;
+    }
+
+    #routineBtn {
+        font-size: 5px;
+        padding: 5px;
+        margin-top: 0px;
+    }
+
+    .detangler,
+    .detangler .fw-bold {
+        font-size: 15px !important;
+        margin-top: 10px;
+    }
+
+    .writtingSection p {
+        text-align: center;
+        font-size: 10px;
+    }
+
+    #ShopPetTeezer {
+        height: 10px;
+        width: 150px;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cardSection .card {
+        display: none;
+    }
+
+    .downGirlText p {
+        font-size: 10px !important;
+    }
+
+    #routineGirl {
+        height: auto;
+        padding: 5px;
+    }
+
+    .footerLine {
+        font-size: 7px;
+    }
+
+    .iconS {
+        font-size: 10px;
+    }
+
+    .navTab .nav-link {
+        font-size: 13px;
+    }
+
+    .header {
+        width: 100%;
+    }
+
+    #showingData {
+        grid-template-columns: 1fr;
+        /* Single column on very small screens */
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .left-nav {
+        width: 50%;
+    }
+
+    .right-nav li:nth-child(1),
+    .right-nav li:nth-child(3) {
+        display: none !important;
+    }
+
+    .writtingSection p {
+        text-align: right;
+        font-size: 10px;
+    }
+
+    #ShopPetTeezer {
+        height: 10px;
+        width: 150px;
+        font-size: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .textContent p,
+    .fw-bold {
+        font-size: 10px !important;
+    }
+
+    .desc p,
+    .desc span {
+        font-size: 10px !important;
+        margin: 0;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .photBooth {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: nowrap;
+        gap: 20px;
+    }
+
+    .outterBox {
+        padding: 10px;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .outterBox img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+        border-radius: 20px;
+    }
+
+    .hairTitle {
+        font-size: 1.5rem;
+        font-weight: 600;
+        color: #222;
+        margin-top: 10px;
+    }
+
+    .shopNow {
+        font-size: 0.9rem;
+        font-weight: 500;
+        color: #555;
+        transition: margin-right 0.3s ease;
+    }
+
+    .outterBox:hover .shopNow {
+        margin-right: -10px;
+        color: #000;
+    }
+
+
+}
+
+@media (max-width: 1024px) {
+    .nav-modal {
+        font-size: 10px !important;
+    }
+
+    .navbar-nav.right-nav .nav-link {
+        font-size: 10px !important;
+    }
+
+    .navbar-nav.right-nav .nav-link i {
+        font-size: 20px !important;
+        /* scale icons down on smaller screens */
+    }
+
+    .navbar-nav.right-nav .nav-link button#navBtn {
+        font-size: 10px !important;
+    }
+}
