@@ -12,11 +12,11 @@
 <p><b>🖼️ Website Preview Screenshots</b></p>
 
 <p><b>1️⃣ Home & Product Listing Page</b></p>
-<img src="Assets/Tangle-Home.png" alt="Home Page Screenshot" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img src="Assets/demo_img-1.png" alt="Home Page Screenshot" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 <p>Features a clean and responsive design using Bootstrap 5, displaying products fetched from a JSON file with filter and sort options.</p>
 
 <p><b>2️⃣ Product Details & Cart Access</b></p>
-<img src="Assets/Tangle-Product-Page.png" alt="Product Detail Page Screenshot" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
+<img src="Assets/demo_img-2.png" alt="Product Detail Page Screenshot" style="max-width: 100%; border: 1px solid #ccc; border-radius: 8px; box-shadow: 0 0 10px rgba(0,0,0,0.1);">
 <p>Each product leads to a detailed description page. Cart access is restricted to authenticated users only, ensuring a secure and user-specific shopping experience.</p>
 
 <hr>
