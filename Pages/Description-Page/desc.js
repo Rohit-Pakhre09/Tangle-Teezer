@@ -160,10 +160,10 @@ async function loadProductDescription() {
 
                 <div class="row g-3">
                   <div class="col-12 col-md-6">
-                    <a href="#" class="btn btn-warning w-100 py-2 fw-semibold">Buy Now</a>
+                    <a href="/Pages/Cart-Page/cart.html" class="btn btn-warning w-100 py-2 fw-semibold">Buy Now</a>
                   </div>
                   <div class="col-12 col-md-6">
-                    <a href="#" class="btn btn-dark w-100 py-2 fw-semibold">Add to Bag</a>
+                    <a href="/Pages/Cart-Page/cart.html" class="btn btn-dark w-100 py-2 fw-semibold">Add to Bag</a>
                   </div>
                 </div>
             </div>
