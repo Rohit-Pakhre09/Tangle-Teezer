@@ -113,12 +113,12 @@ function typeEffect() {
 
   if (index > text.length) {
     isDeleting = true;
-    setTimeout(typeEffect, 1000); 
+    setTimeout(typeEffect, 1000);
   } else if (index < 0) {
     isDeleting = false;
-    setTimeout(typeEffect, 500); 
+    setTimeout(typeEffect, 500);
   } else {
-    setTimeout(typeEffect, isDeleting ? 50 : 100); 
+    setTimeout(typeEffect, isDeleting ? 50 : 100);
   }
 }
 
@@ -132,7 +132,7 @@ function updateCartCountDisplay(count) {
 
   if (count > 0) {
     num.innerText = count;
-    num.style.display = "block"; 
+    num.style.display = "block";
   } else {
     num.style.display = "none";
   }
@@ -149,6 +149,7 @@ async function cartFetch(url) {
 const cartContainer = document.getElementById("cartContainer");
 async function displayProduct() {
   const cartArr = await cartFetch("http://localhost:3000/cart");
+  console.log(cartArr);
   cartContainer.innerHTML = "";
 
   if (cartArr.length === 0) {
@@ -178,7 +179,7 @@ async function displayProduct() {
               </div>
               <p class="card-text mb-3 text-dark fw-semibold">Price by Qty: £${fixed}</p>
               <button class="btn btn-sm btn-danger removebtn" type="button" data-id="${el.id}">Remove</button>
-              <button class="btn btn-sm btn-warning" type="button">Buy Now</button>
+              <button class="btn btn-sm btn-warning buy-btn" type="button" id="${el.productId}">Buy Now</button>
             </div>
           </div>
         </div>
@@ -243,6 +244,11 @@ cartContainer.addEventListener("click", async (e) => {
       console.error("Failed to update quantity and price:", err);
     }
   }
+
+  if (e.target.classList.contains("buy-btn")) {
+    const buyId = e.target.id;
+    window.location.href = `/Pages/Payment-Page/pay.html?productId=${buyId}`;
+  }
 });
 
 window.addEventListener("load", () => {
@@ -250,3 +256,11 @@ window.addEventListener("load", () => {
     document.getElementById("loader").classList.add("hidden");
   }, 2000);
 });
+
+// Sending cart id to the payment option.
+async function sendingData() {
+  const res = await cartFetch("http://localhost:3000/cart");
+
+  console.log("Payment data: ", res);
+}
+sendingData();
