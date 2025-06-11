@@ -104,6 +104,5 @@ close.addEventListener("click", () => {
 // Back Btn
 const backBtn = document.getElementById("back-btn");
 backBtn.addEventListener("click", () => {
-  // window.open("/Pages/Cart-Page/cart.html", "_blank");
   window.location.replace('/Pages/Cart-Page/cart.html')
 });
