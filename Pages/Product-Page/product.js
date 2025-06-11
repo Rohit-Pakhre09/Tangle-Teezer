@@ -113,12 +113,12 @@ function typeEffect() {
 
   if (index > text.length) {
     isDeleting = true;
-    setTimeout(typeEffect, 1000); 
+    setTimeout(typeEffect, 1000);
   } else if (index < 0) {
     isDeleting = false;
-    setTimeout(typeEffect, 500); 
+    setTimeout(typeEffect, 500);
   } else {
-    setTimeout(typeEffect, isDeleting ? 50 : 100); 
+    setTimeout(typeEffect, isDeleting ? 50 : 100);
   }
 }
 
@@ -213,17 +213,27 @@ container.addEventListener("click", async (e) => {
     e.preventDefault();
 
     const productId = e.target.getAttribute("data-id");
-    try {
-      const res = await fetch(
-        `http://localhost:3000/cart?productId=${productId}`
-      );
-      const data = await res.json();
+    const selectedVariant = document.querySelector("select#variant")?.value;
 
+    try {
       const productRes = await fetch(
         `http://localhost:3000/items/${productId}`
       );
       const product = await productRes.json();
 
+      const cartRes = await fetch("http://localhost:3000/cart");
+      const cartData = await cartRes.json();
+
+      const isAlreadyInCart = cartData.find(
+        (item) => item.name === product.name && item.variant === selectedVariant
+      );
+
+      if (isAlreadyInCart) {
+        alert("This product variant is already in the cart!");
+        return;
+      }
+
+      // Step 4: Add to cart
       await fetch("http://localhost:3000/cart", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
