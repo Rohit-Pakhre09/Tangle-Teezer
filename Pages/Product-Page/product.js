@@ -238,6 +238,7 @@ container.addEventListener("click", async (e) => {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
+          productId: product.id,
           name: product.name,
           variant: selectedVariant,
           img: product.primary_image,
