@@ -124,8 +124,8 @@ function typeEffect() {
 
 typeEffect();
 
+// Main logic.
 const url = "http://localhost:3000/items";
-
 async function loadProducts() {
   try {
     const res = await fetch(url);
