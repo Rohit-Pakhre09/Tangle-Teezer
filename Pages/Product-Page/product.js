@@ -213,19 +213,40 @@ container.addEventListener("click", async (e) => {
     e.preventDefault();
 
     const productId = e.target.getAttribute("data-id");
-    const selectedVariant = document.querySelector("select#variant")?.value;
+
+    // Try getting variant from dropdown (if exists)
+    const variantDropdown = document.querySelector("select#variant");
+    const variantIndex = variantDropdown ? variantDropdown.value : null;
 
     try {
+      // Fetch product
       const productRes = await fetch(
         `http://localhost:3000/items/${productId}`
       );
       const product = await productRes.json();
 
+      // Determine selected variant
+      let selectedVariant;
+      if (variantIndex !== null) {
+        selectedVariant = product.variants[variantIndex];
+      } else {
+        // Fallback to first variant or base product if not present
+        selectedVariant = product.variants?.[0] || {
+          title: "Default",
+          price: product.price * 100, // If already in pounds, remove * 100
+          image: product.primary_image,
+        };
+      }
+
+      // Fetch cart
       const cartRes = await fetch("http://localhost:3000/cart");
       const cartData = await cartRes.json();
 
+      // Check if already in cart
       const isAlreadyInCart = cartData.find(
-        (item) => item.name === product.name && item.variant === selectedVariant
+        (item) =>
+          item.productId === product.id &&
+          item.variant === selectedVariant.title
       );
 
       if (isAlreadyInCart) {
@@ -233,23 +254,24 @@ container.addEventListener("click", async (e) => {
         return;
       }
 
-      // Step 4: Add to cart
+      // Add to cart
       await fetch("http://localhost:3000/cart", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
           productId: product.id,
           name: product.name,
-          variant: selectedVariant,
-          img: product.primary_image,
-          price: product.price,
+          variant: selectedVariant.title,
+          img: selectedVariant.image || product.primary_image,
+          price: selectedVariant.price / 100,
           description: product.description,
           qty: 1,
-          totalPrice: product.price * 1,
+          totalPrice: selectedVariant.price / 100,
         }),
       });
 
-      await updateCartCount();
+      alert("Product added to cart!");
+      await updateCartCount(); // If you have cart badge count
     } catch (error) {
       console.error("Add to cart failed:", error);
     }

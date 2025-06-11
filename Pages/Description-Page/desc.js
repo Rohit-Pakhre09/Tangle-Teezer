@@ -159,11 +159,10 @@ async function loadProductDescription() {
                 <div id="variantDetails" class="mb-4"></div>
 
                 <div class="row g-3">
-                  <div class="col-12 col-md-6">
-                    <a href="/Pages/Cart-Page/cart.html" class="btn btn-warning w-100 py-2 fw-semibold">Buy Now</a>
-                  </div>
-                  <div class="col-12 col-md-6">
-                    <a href="/Pages/Cart-Page/cart.html" class="btn btn-dark w-100 py-2 fw-semibold">Add to Bag</a>
+                  <div class="col-12">
+                    <a href="#" class="btn btn-dark w-100 py-2 fw-semibold" data-id="${
+                      product.id
+                    }">Add to Bag</a>
                   </div>
                 </div>
             </div>
@@ -226,6 +225,89 @@ window.addEventListener("load", () => {
   setTimeout(() => {
     document.getElementById("loader").classList.add("hidden");
   }, 2000);
+});
+
+// Add to Bag button logic
+document.addEventListener("click", async (e) => {
+  if (e.target && e.target.matches("a.btn.cart, a.btn[data-id]")) {
+    e.preventDefault();
+
+    const button = e.target;
+    const productId = button.getAttribute("data-id");
+    const selectedIndex = document.getElementById("variantSelect")?.value;
+
+    try {
+      // Fetch full product info
+      const productRes = await fetch(
+        `http://localhost:3000/items/${productId}`
+      );
+      const product = await productRes.json();
+      const selectedVariant = product.variants[selectedIndex];
+
+      // Fetch cart to check for duplicates
+      const cartRes = await fetch("http://localhost:3000/cart");
+      const cart = await cartRes.json();
+
+      const isAlreadyInCart = cart.find(
+        (item) =>
+          item.productId === product.id &&
+          item.variant === selectedVariant.title
+      );
+
+      if (isAlreadyInCart) {
+        alert("This variant is already in the cart.");
+        return;
+      }
+
+      // Post product to cart
+      await fetch("http://localhost:3000/cart", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          productId: product.id,
+          name: product.name,
+          variant: selectedVariant.title,
+          img: selectedVariant.image || product.primary_image,
+          price: selectedVariant.price / 100,
+          description: product.description,
+          qty: 1,
+          totalPrice: selectedVariant.price / 100,
+        }),
+      });
+
+      alert("Product added to cart!");
+    } catch (err) {
+      console.error("Add to cart error:", err);
+    }
+  }
+});
+
+// Cart count display function
+function updateCartCountDisplay(count) {
+  const num = document.getElementById("num");
+  if (!num) return;
+
+  if (count > 0) {
+    num.innerText = count;
+    num.style.display = "block";
+  } else {
+    num.style.display = "none";
+  }
+}
+
+// Fetch cart and update display
+async function updateCartCount() {
+  try {
+    const res = await fetch("http://localhost:3000/cart");
+    const cartItems = await res.json();
+    updateCartCountDisplay(cartItems.length);
+  } catch (error) {
+    console.error("Failed to update cart count:", error);
+  }
+}
+
+window.addEventListener("DOMContentLoaded", () => {
+  updateCartCount();
 });
 
 // Cart Logic

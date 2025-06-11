@@ -1436,16 +1436,5 @@
       "id": 1
     }
   ],
-  "cart": [
-    {
-      "productId": 2,
-      "name": "The Original",
-      "img": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0025_OriginalPinkFizz1.jpg?v=1706469668",
-      "price": "15.00",
-      "description": "The Original Tangle Teezer is a game-changer in haircare, designed to detangle all hair types with ease. Its unique two-tiered teeth system gently removes knots while minimizing breakage and damage, leaving hair smooth and shiny. Lightweight at 73g, this iconic brush is perfect for everyday use, available in a range of vibrant colors.",
-      "qty": 1,
-      "totalPrice": 15,
-      "id": 1
-    }
-  ]
+  "cart": []
 }
