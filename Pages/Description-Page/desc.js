@@ -158,7 +158,14 @@ async function loadProductDescription() {
 
                 <div id="variantDetails" class="mb-4"></div>
 
-                <a href="" class="btn btn-dark w-100 py-2 fw-semibold" target="_blank">Buy Now</a>
+                <div class="row g-3">
+                  <div class="col-12 col-md-6">
+                    <a href="#" class="btn btn-warning w-100 py-2 fw-semibold">Buy Now</a>
+                  </div>
+                  <div class="col-12 col-md-6">
+                    <a href="#" class="btn btn-dark w-100 py-2 fw-semibold">Add to Bag</a>
+                  </div>
+                </div>
             </div>
         </div>
     </div>
