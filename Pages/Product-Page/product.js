@@ -213,18 +213,11 @@ container.addEventListener("click", async (e) => {
     e.preventDefault();
 
     const productId = e.target.getAttribute("data-id");
-    const selectedVariant = document.querySelector("select#variant")?.value; 
-
     try {
       const res = await fetch(
         `http://localhost:3000/cart?productId=${productId}`
       );
       const data = await res.json();
-
-      // if (data.length > 0) {
-      //   alert("This product variant is already in the cart!");
-      //   return;
-      // }
 
       const productRes = await fetch(
         `http://localhost:3000/items/${productId}`
