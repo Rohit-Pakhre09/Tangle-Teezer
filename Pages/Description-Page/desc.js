@@ -220,3 +220,33 @@ window.addEventListener("load", () => {
     document.getElementById("loader").classList.add("hidden");
   }, 2000);
 });
+
+// Cart Logic
+const cart = document.getElementById("cart");
+
+async function fetching(url) {
+  const res = await fetch(url);
+  const data = await res.json();
+  return data;
+}
+
+async function dataShowing() {
+  const data = await fetching("http://localhost:3000/signUp");
+
+  if (data.length === 0) {
+    window.location.href = "/Pages/Profile-Page/profile.html";
+  } else {
+    window.location.href = "/Pages/Cart-Page/cart.html";
+  }
+}
+
+cart.addEventListener("click", async (e) => {
+  e.preventDefault();
+  await dataShowing();
+});
+
+window.addEventListener("load", () => {
+  setTimeout(() => {
+    document.getElementById("loader").classList.add("hidden");
+  }, 2000);
+});
