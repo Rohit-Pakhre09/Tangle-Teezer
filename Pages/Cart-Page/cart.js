@@ -149,11 +149,11 @@ async function cartFetch(url) {
 const cartContainer = document.getElementById("cartContainer");
 async function displayProduct() {
   const cartArr = await cartFetch("http://localhost:3000/cart");
-  console.log(cartArr);
   cartContainer.innerHTML = "";
 
   if (cartArr.length === 0) {
     cartContainer.innerHTML = `<p class="text-danger fw-bold fs-4">Your cart is empty.</p>`;
+    document.getElementById('alertMsg').style.display = "none"
     return;
   }
 
@@ -260,7 +260,5 @@ window.addEventListener("load", () => {
 // Sending cart id to the payment option.
 async function sendingData() {
   const res = await cartFetch("http://localhost:3000/cart");
-
-  console.log("Payment data: ", res);
 }
 sendingData();

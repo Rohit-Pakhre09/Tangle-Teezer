@@ -233,7 +233,7 @@ container.addEventListener("click", async (e) => {
         // Fallback to first variant or base product if not present
         selectedVariant = product.variants?.[0] || {
           title: "Default",
-          price: product.price * 100, // If already in pounds, remove * 100
+          price: product.price * 100, 
           image: product.primary_image,
         };
       }
@@ -270,8 +270,7 @@ container.addEventListener("click", async (e) => {
         }),
       });
 
-      alert("Product added to cart!");
-      await updateCartCount(); // If you have cart badge count
+      await updateCartCount();
     } catch (error) {
       console.error("Add to cart failed:", error);
     }

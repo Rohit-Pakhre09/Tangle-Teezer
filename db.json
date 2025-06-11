@@ -1436,5 +1436,17 @@
       "id": 1
     }
   ],
-  "cart": []
+  "cart": [
+    {
+      "productId": 4,
+      "name": "The Original Fine & Fragile",
+      "variant": "Pink Dawn",
+      "img": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0007_OriginalF_FPinkDawn1.jpg?v=1707839946",
+      "price": 15,
+      "description": "The Original Fine & Fragile Tangle Teezer is crafted for delicate, color-treated, or fine hair. Its softer, flexible teeth detangle gently to prevent breakage and split ends, delivering a smooth, healthy finish. At 73g, this lightweight brush is perfect for gentle daily care.",
+      "qty": 1,
+      "totalPrice": 15,
+      "id": 5
+    }
+  ]
 }
