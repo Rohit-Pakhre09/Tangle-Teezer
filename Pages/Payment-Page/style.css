@@ -9,6 +9,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    position: relative;
 }
 
 .payment-form {
@@ -71,4 +72,10 @@ body {
 
 .loader-container.hidden {
     display: none;
+}
+
+body .backBtn {
+    position: absolute;
+    top: 0px;
+    left: 20px;
 }

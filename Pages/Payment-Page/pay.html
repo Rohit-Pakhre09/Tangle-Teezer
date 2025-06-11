@@ -23,43 +23,104 @@
 <body>
 
     <!-- Loader -->
-    <div class="loader-container" id="loader">
+    <!-- <div class="loader-container" id="loader">
         <div class="loader"></div>
+    </div> -->
+
+    <!-- Back Button -->
+    <div class="text-center mt-3 backBtn">
+        <button type="button" class="btn btn-outline-success" id="back-btn">
+            Back
+        </button>
     </div>
 
-    <div class="payment-form shadow">
-        <h4 class="form-title text-center mb-4 fw-bold">Make Your Payment</h4>
-        <form id="paymentForm">
-            <div class="mb-3">
-                <label for="fullName" class="form-label">Full Name</label>
-                <input type="text" class="form-control" id="fullName" required placeholder="Enter your full name" />
-            </div>
-            <div class="mb-3">
-                <label for="email" class="form-label">Email Address</label>
-                <input type="email" class="form-control" id="email" required placeholder="example@email.com" />
-            </div>
-            <div class="mb-3">
-                <label for="cardNumber" class="form-label">Card Number</label>
-                <input type="text" class="form-control" id="cardNumber" required placeholder="XXXX XXXX XXXX XXXX"
-                    maxlength="19" />
-            </div>
-            <div class="row">
-                <div class="col-md-6 mb-3">
-                    <label for="expiry" class="form-label">Expiry Date</label>
-                    <input type="text" class="form-control" id="expiry" required placeholder="MM/YY" maxlength="5" />
-                </div>
-                <div class="col-md-6 mb-3">
-                    <label for="cvv" class="form-label">CVV</label>
-                    <input type="text" class="form-control" id="cvv" required placeholder="XYZ" maxlength="3" />
+    <!-- Payment Form -->
+    <div class="container my-5 d-flex justify-content-center">
+        <div class="row justify-content-center align-items-start">
+            <div class="col-md-6 mb-4 mt-5 h-75">
+                <div class="card border-0 shadow rounded-4">
+                    <img id="productImage" class="card-img-top rounded-4" alt="Product Image"
+                        style="background-color: white; height: 400px; object-fit: contain;">
+                    <div class="card-body">
+                        <h5 id="productName" class="card-title fw-bold"></h5>
+                        <hr>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item border-0 m-0"><strong>Price:</strong> ₹<span
+                                    id="productPrice"></span></li>
+                            <li class="list-group-item border-0 m-0"><strong>Quantity:</strong> <span
+                                    id="productQty"></span></li>
+                            <li class="list-group-item border-0 m-0"><strong>Total:</strong> ₹<span
+                                    id="productTotal"></span></li>
+                        </ul>
+                    </div>
                 </div>
             </div>
-            <div class="mb-4">
-                <label for="amount" class="form-label">Amount (INR)</label>
-                <input type="number" class="form-control" id="amount" required placeholder="Enter the INR(₹) amount" />
+
+            <!-- Payment Form -->
+            <div class="col-md-6 h-75">
+                <div class="payment-form shadow p-4 rounded-4 bg-white">
+                    <h4 class="form-title text-center mb-4 fw-bold">Make Your Payment</h4>
+                    <form id="paymentForm">
+                        <div class="mb-3">
+                            <label for="fullName" class="form-label">Full Name</label>
+                            <input type="text" class="form-control" id="fullName" required
+                                placeholder="Enter your full name" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required
+                                placeholder="example@email.com" />
+                        </div>
+                        <div class="mb-3">
+                            <label for="cardNumber" class="form-label">Card Number</label>
+                            <input type="text" class="form-control" id="cardNumber" required
+                                placeholder="XXXX XXXX XXXX XXXX" maxlength="16" />
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 mb-3">
+                                <label for="expiry" class="form-label">Expiry Date</label>
+                                <input type="text" class="form-control" id="expiry" required placeholder="MM/YY"
+                                    maxlength="5" />
+                            </div>
+                            <div class="col-md-6 mb-3">
+                                <label for="cvv" class="form-label">CVV</label>
+                                <input type="text" class="form-control" id="cvv" required placeholder="XYZ"
+                                    maxlength="3" />
+                            </div>
+                        </div>
+                        <div class="mb-4">
+                            <label for="amount" class="form-label">Amount (INR)</label>
+                            <input type="number" class="form-control" id="amount" required readonly />
+                        </div>
+                        <button type="submit" class="btn btn-success w-100">Pay Now</button>
+                        <div id="msg" class="text-danger mt-2 fw-bold" style="height: 20px;"></div>
+                    </form>
+                </div>
             </div>
-            <button type="submit" class="btn btn-primary w-100">Pay Now</button>
-        </form>
+        </div>
     </div>
+
+
+    <!-- Payment Done Modal -->
+    <div class="modal fade" id="paymentModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Payment Successful</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <p>Thank you! Your payment has been processed successfully.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-success" data-bs-dismiss="modal" id="close">Continue
+                        Shopping</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="pay.js"></script>
 
 </body>
 
