@@ -217,14 +217,14 @@ container.addEventListener("click", async (e) => {
 
     try {
       const res = await fetch(
-        `http://localhost:3000/cart?productId=${productId}&variant=${selectedVariant}`
+        `http://localhost:3000/cart?productId=${productId}`
       );
       const data = await res.json();
 
-      if (data.length > 0) {
-        alert("This product variant is already in the cart!");
-        return;
-      }
+      // if (data.length > 0) {
+      //   alert("This product variant is already in the cart!");
+      //   return;
+      // }
 
       const productRes = await fetch(
         `http://localhost:3000/items/${productId}`
