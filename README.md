@@ -2,6 +2,7 @@
 <p>A sleek and modern e-commerce website clone of <b>Tangle Teezer</b>, crafted using <b>HTML</b>, <b>CSS</b>, <b>Bootstrap 5</b>, and <b>JavaScript</b>. This project integrates essential online shopping functionalities such as product rendering via <b>JSON</b>, sorting, filtering, detailed product views, and authentication-based cart access.</p>
 
 <p>🌐 <b>Live Demo:</b> <a href="https://tangle-teezer.vercel.app/" target="_blank" rel="noopener noreferrer">https://tangle-teezer.vercel.app/</a></p>
+<img src="Assets/Tangle Teezer.gif"></img>
 
 <h1><b>🖼️ Website Preview Images</b></h1> 
 <p><b>1️⃣ Home & Product Listing Page</b></p> 
