@@ -9,11 +9,7 @@
       "compare_at_price": null,
       "sales_count": 1500,
       "category": "detangling",
-      "hair_type": [
-        "thick",
-        "curly",
-        "textured"
-      ],
+      "hair_type": ["thick", "curly", "textured"],
       "description": "The Tangle Teezer Wide Tooth Comb is designed for effortless detangling of wet or dry hair, particularly suited for thick, curly, or textured hair types. Its wide, sturdy teeth glide through knots without pulling, reducing breakage and ensuring a smooth, pain-free experience. Lightweight at 66g, this comb is perfect for shower use or on-the-go styling, available in vibrant Purple Passion and Mango Pink shades.",
       "variants": [
         {
@@ -45,10 +41,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Peach_Pink_WTD_Hero_Shot.jpg?v=1741960862",
       "age": "new",
       "best_selling": true,
-      "colors": [
-        "purple",
-        "pink"
-      ]
+      "colors": ["purple", "pink"]
     },
     {
       "id": 2,
@@ -59,9 +52,7 @@
       "compare_at_price": null,
       "sales_count": 2000,
       "category": "detangling",
-      "hair_type": [
-        "all"
-      ],
+      "hair_type": ["all"],
       "description": "The Original Tangle Teezer is a game-changer in haircare, designed to detangle all hair types with ease. Its unique two-tiered teeth system gently removes knots while minimizing breakage and damage, leaving hair smooth and shiny. Lightweight at 73g, this iconic brush is perfect for everyday use, available in a range of vibrant colors.",
       "variants": [
         {
@@ -141,12 +132,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0020_OriginalPinkSky1.jpg?v=1706469668",
       "age": "old",
       "best_selling": true,
-      "colors": [
-        "pink",
-        "purple",
-        "black",
-        "blue"
-      ]
+      "colors": ["pink", "purple", "black", "blue"]
     },
     {
       "id": 3,
@@ -157,9 +143,7 @@
       "compare_at_price": null,
       "sales_count": 800,
       "category": "detangling",
-      "hair_type": [
-        "all"
-      ],
+      "hair_type": ["all"],
       "description": "The Original Plant Brush™ combines eco-friendly design with Tangle Teezer’s signature detangling technology. Made from sustainable materials, this brush effortlessly glides through all hair types, reducing breakage and promoting shine. Weighing 85g, it’s ideal for environmentally conscious users.",
       "variants": [
         {
@@ -215,12 +199,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0003_PlantBrush_OR_EarthyPurple_HeroImage.jpg?v=1706473754",
       "age": "new",
       "best_selling": false,
-      "colors": [
-        "pink",
-        "purple",
-        "blue",
-        "orange"
-      ]
+      "colors": ["pink", "purple", "blue", "orange"]
     },
     {
       "id": 4,
@@ -231,10 +210,7 @@
       "compare_at_price": null,
       "sales_count": 1200,
       "category": "detangling",
-      "hair_type": [
-        "fine",
-        "color-treated"
-      ],
+      "hair_type": ["fine", "color-treated"],
       "description": "The Original Fine & Fragile Tangle Teezer is crafted for delicate, color-treated, or fine hair. Its softer, flexible teeth detangle gently to prevent breakage and split ends, delivering a smooth, healthy finish. At 73g, this lightweight brush is perfect for gentle daily care.",
       "variants": [
         {
@@ -290,11 +266,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0006_OriginalF_FMintViolet1.jpg?v=1707839946",
       "age": "old",
       "best_selling": true,
-      "colors": [
-        "pink",
-        "purple",
-        "red"
-      ]
+      "colors": ["pink", "purple", "red"]
     },
     {
       "id": 5,
@@ -305,11 +277,7 @@
       "compare_at_price": null,
       "sales_count": 1000,
       "category": "detangling",
-      "hair_type": [
-        "thick",
-        "curly",
-        "coily"
-      ],
+      "hair_type": ["thick", "curly", "coily"],
       "description": "The Original Thick & Curly Tangle Teezer is engineered for thick, curly, or coily hair. Its firm, robust teeth tackle tough knots with ease, reducing frizz and breakage for smooth, defined curls. Weighing 80g, this brush is available in bold colors.",
       "variants": [
         {
@@ -365,11 +333,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0011_OriginalT_CTerracotta1.jpg?v=1707840069",
       "age": "new",
       "best_selling": false,
-      "colors": [
-        "red",
-        "orange",
-        "pink"
-      ]
+      "colors": ["red", "orange", "pink"]
     },
     {
       "id": 6,
@@ -380,10 +344,7 @@
       "compare_at_price": null,
       "sales_count": 1800,
       "category": "detangling",
-      "hair_type": [
-        "kids",
-        "all"
-      ],
+      "hair_type": ["kids", "all"],
       "description": "The Original Mini Tangle Teezer is a compact, travel-friendly brush perfect for kids or on-the-go detangling. Its small size (51g) and playful designs make it fun and functional for all hair types. Ideal for gentle detangling without tugging, it’s a must-have for small hands or purses.",
       "variants": [
         {
@@ -487,14 +448,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Originalmini_0001s_0003_UnicornMagic1.jpg?v=1720439948",
       "age": "old",
       "best_selling": true,
-      "colors": [
-        "multicolor",
-        "green",
-        "teal",
-        "orange",
-        "pink",
-        "yellow"
-      ]
+      "colors": ["multicolor", "green", "teal", "orange", "pink", "yellow"]
     },
     {
       "id": 7,
@@ -505,9 +459,7 @@
       "compare_at_price": null,
       "sales_count": 900,
       "category": "detangling",
-      "hair_type": [
-        "all"
-      ],
+      "hair_type": ["all"],
       "description": "The Compact Styler is Tangle Teezer’s travel-ready detangling brush with a protective cover to keep teeth safe. Perfect for all hair types, its two-tiered teeth glide through knots effortlessly, ensuring smooth, shiny hair on the go. At 105g, it’s stylish and portable.",
       "variants": [
         {
@@ -563,12 +515,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Compactstyler_0000s_0003s_0013_MatteChrome1.jpg?v=1706543968",
       "age": "new",
       "best_selling": false,
-      "colors": [
-        "white",
-        "multicolor",
-        "purple",
-        "teal"
-      ]
+      "colors": ["white", "multicolor", "purple", "teal"]
     },
     {
       "id": 8,
@@ -579,9 +526,7 @@
       "compare_at_price": null,
       "sales_count": 600,
       "category": "blow drying",
-      "hair_type": [
-        "all"
-      ],
+      "hair_type": ["all"],
       "description": "The Tangle Teezer Smoothing Tool is designed for salon-quality blow-drying at home. Its innovative teeth reduce frizz and add volume, creating a smooth, polished finish. Available in Large and Regular sizes, this brush works on all hair types, delivering professional results with minimal effort.",
       "variants": [
         {
@@ -613,9 +558,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0005_Small_Brush_Rotation_2.jpg?v=1706478397",
       "age": "old",
       "best_selling": false,
-      "colors": [
-        "blue"
-      ]
+      "colors": ["blue"]
     },
     {
       "id": 9,
@@ -626,9 +569,7 @@
       "compare_at_price": null,
       "sales_count": 550,
       "category": "blow drying",
-      "hair_type": [
-        "all"
-      ],
+      "hair_type": ["all"],
       "description": "The Tangle Teezer Round Tool is perfect for creating voluminous, bouncy blow-dried styles. Its rounded design lifts hair at the roots, adding body and smoothness. Available in Large and Small sizes, this brush is ideal for all hair lengths, delivering salon-worthy results at home.",
       "variants": [
         {
@@ -660,9 +601,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0000_Round_Styling_Brush_Half_Size_front.jpg?v=1706481362",
       "age": "new",
       "best_selling": false,
-      "colors": [
-        "black"
-      ]
+      "colors": ["black"]
     },
     {
       "id": 10,
@@ -673,9 +612,7 @@
       "compare_at_price": null,
       "sales_count": 1100,
       "category": "wellness",
-      "hair_type": [
-        "all"
-      ],
+      "hair_type": ["all"],
       "description": "The Scalp Exfoliator & Massager promotes a healthy scalp with gentle exfoliation and soothing massage. Its flexible teeth stimulate blood flow, remove buildup, and enhance hair health. Lightweight at 36g, this tool is perfect for wet or dry use.",
       "variants": [
         {
@@ -743,13 +680,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Scalp_0000s_0002s_0001_HeroImage_SR_PrettyPink.jpg?v=1706114517",
       "age": "old",
       "best_selling": true,
-      "colors": [
-        "pink",
-        "purple",
-        "black",
-        "green",
-        "blue"
-      ]
+      "colors": ["pink", "purple", "black", "green", "blue"]
     },
     {
       "id": 11,
@@ -760,9 +691,7 @@
       "compare_at_price": null,
       "sales_count": 700,
       "category": "accessories",
-      "hair_type": [
-        "all"
-      ],
+      "hair_type": ["all"],
       "description": "The Fine Mist Spray Bottle delivers a light, even mist to hydrate hair before styling or detangling. With a 108g ergonomic design, it’s perfect for applying water, leave-in conditioners, or styling products. Available in a sleek Pink finish, this bottle ensures precise application for smooth, manageable hair.",
       "variants": [
         {
@@ -782,9 +711,7 @@
       "second_image": null,
       "age": "new",
       "best_selling": false,
-      "colors": [
-        "pink"
-      ]
+      "colors": ["pink"]
     },
     {
       "id": 12,
@@ -795,9 +722,7 @@
       "compare_at_price": null,
       "sales_count": 400,
       "category": "pet grooming",
-      "hair_type": [
-        "pet"
-      ],
+      "hair_type": ["pet"],
       "description": "The Puppy Brush by Tangle Teezer is designed for gentle grooming of your dog’s coat. Its flexible teeth detangle fur without pulling, keeping your pet comfortable and their coat shiny. Weighing 70g and available in Pistachio, this brush is perfect for small to medium-sized dogs with all fur types.",
       "variants": [
         {
@@ -817,9 +742,7 @@
       "second_image": null,
       "age": "old",
       "best_selling": false,
-      "colors": [
-        "green"
-      ]
+      "colors": ["green"]
     },
     {
       "id": 13,
@@ -830,9 +753,7 @@
       "compare_at_price": null,
       "sales_count": 450,
       "category": "pet grooming",
-      "hair_type": [
-        "pet"
-      ],
+      "hair_type": ["pet"],
       "description": "The Cat Grooming Brush gently detangles and smooths your cat’s fur, reducing shedding and promoting a healthy coat. Its flexible teeth ensure a comfortable grooming experience for your pet. Lightweight at 70g, this brush is ideal for cats of all fur types.",
       "variants": [
         {
@@ -864,10 +785,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/CatBrush_MillenialPink_Angle5.jpg?v=1725977616",
       "age": "new",
       "best_selling": false,
-      "colors": [
-        "green",
-        "pink"
-      ]
+      "colors": ["green", "pink"]
     },
     {
       "id": 14,
@@ -878,9 +796,7 @@
       "compare_at_price": null,
       "sales_count": 0,
       "category": "pet grooming",
-      "hair_type": [
-        "dog fur"
-      ],
+      "hair_type": ["dog fur"],
       "description": "The Tangle Teezer Detangling Dog Grooming Brush is designed for effortless detangling of dog fur, suitable for both large and small breeds. Its patented two-tier teeth technology gently removes knots and tangles, reducing shedding and ensuring a smooth grooming experience. Available in vibrant color combinations, this brush is perfect for keeping your pet's coat healthy and shiny.",
       "variants": [
         {
@@ -924,11 +840,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Pet_0003s_0000s_0000_PinkYellow.jpg?v=1706285697&width=550",
       "age": "new",
       "best_selling": false,
-      "colors": [
-        "pink & yellow",
-        "blue & grey",
-        "lilac butter"
-      ]
+      "colors": ["pink & yellow", "blue & grey", "lilac butter"]
     },
     {
       "id": 15,
@@ -939,9 +851,7 @@
       "compare_at_price": null,
       "sales_count": 0,
       "category": "pet grooming",
-      "hair_type": [
-        "dog fur"
-      ],
+      "hair_type": ["dog fur"],
       "description": "The Tangle Teezer De-shedding Dog Grooming Brush is crafted to effectively reduce shedding in dogs, suitable for both large and small breeds. Its specialized teeth design removes loose fur, minimizing mess and keeping your pet's coat sleek and healthy. Available in vibrant color combinations, this brush is ideal for regular grooming sessions.",
       "variants": [
         {
@@ -997,12 +907,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Pet_0003s_0000s_0003_PurpleandGreyPetStyler_7.jpg?v=1706285297&width=550",
       "age": "new",
       "best_selling": true,
-      "colors": [
-        "purple & grey",
-        "blue & pink",
-        "pink & green",
-        "navy sky"
-      ]
+      "colors": ["purple & grey", "blue & pink", "pink & green", "navy sky"]
     },
     {
       "id": 16,
@@ -1013,9 +918,7 @@
       "compare_at_price": null,
       "sales_count": 0,
       "category": "styling",
-      "hair_type": [
-        "all hair types"
-      ],
+      "hair_type": ["all hair types"],
       "description": "The Tangle Teezer Ultimate Styler is designed for versatile styling, perfect for all hair types. Its unique teeth configuration smooths and adds shine, making it ideal for creating polished looks. Lightweight at 98g, this brush is available in vibrant colors, ensuring a stylish and effective grooming experience.",
       "variants": [
         {
@@ -1100,9 +1003,7 @@
       "compare_at_price": null,
       "sales_count": 0,
       "category": "blow drying",
-      "hair_type": [
-        "all hair types"
-      ],
+      "hair_type": ["all hair types"],
       "description": "The Tangle Teezer Ultimate Blow Dry is crafted for smooth, frizz-free blow-drying. Available in regular and large sizes, its innovative teeth design ensures even heat distribution, reducing damage and enhancing shine. Lightweight and available in vibrant colors, it’s perfect for achieving salon-quality results at home.",
       "variants": [
         {
@@ -1182,12 +1083,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/TUVH_0000s_0001s_0002_EDG_MillennialPink_7.jpg?v=1709916120&width=550",
       "age": "new",
       "best_selling": true,
-      "colors": [
-        "tickled pink",
-        "jet black",
-        "sweet pea",
-        "lilac cloud"
-      ]
+      "colors": ["tickled pink", "jet black", "sweet pea", "lilac cloud"]
     },
     {
       "id": 18,
@@ -1198,9 +1094,7 @@
       "compare_at_price": null,
       "sales_count": 0,
       "category": "blow drying",
-      "hair_type": [
-        "all hair types"
-      ],
+      "hair_type": ["all hair types"],
       "description": "The Tangle Teezer Smoothing Tool is designed for sleek, polished results during blow-drying. Available in large and regular sizes, its unique teeth technology smooths hair cuticles, reducing frizz and enhancing shine. Lightweight and durable, it’s perfect for achieving a professional finish at home.",
       "variants": [
         {
@@ -1232,9 +1126,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Smoothingtool_0008_Large_Brush_Rotation_1.jpg?v=1706478397&width=550",
       "age": "new",
       "best_selling": true,
-      "colors": [
-        "blue/cream"
-      ]
+      "colors": ["blue/cream"]
     },
     {
       "id": 19,
@@ -1245,9 +1137,7 @@
       "compare_at_price": null,
       "sales_count": 0,
       "category": "blow drying",
-      "hair_type": [
-        "all hair types"
-      ],
+      "hair_type": ["all hair types"],
       "description": "The Tangle Teezer Round Tool is perfect for creating volume and shape during blow-drying. Available in large and small sizes, its round design and specialized teeth ensure smooth, bouncy results with minimal damage. Lightweight and ergonomic, it’s ideal for salon-quality styling.",
       "variants": [
         {
@@ -1279,9 +1169,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Lifestyle_0018s_0001_Round-Tool-Large.png?v=1706481362&width=550",
       "age": "new",
       "best_selling": true,
-      "colors": [
-        "black/white"
-      ]
+      "colors": ["black/white"]
     },
     {
       "id": 20,
@@ -1292,9 +1180,7 @@
       "compare_at_price": null,
       "sales_count": 0,
       "category": "detangling",
-      "hair_type": [
-        "kids hair"
-      ],
+      "hair_type": ["kids hair"],
       "description": "The Tangle Teezer Everyday Detangling Spray for Kids is formulated to gently detangle children's hair, making brushing easier and tear-free. Its lightweight, non-greasy formula adds softness and shine, perfect for daily use on delicate hair.",
       "variants": [
         {
@@ -1314,9 +1200,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Spray_PDPs_0009_Spray_PDPs__0003_2024-07-08_-_TT_UK_-_Spray_Bottle_PDP_Images0032.jpg?v=1726579229&width=550",
       "age": "new",
       "best_selling": true,
-      "colors": [
-        "clear"
-      ]
+      "colors": ["clear"]
     },
     {
       "id": 21,
@@ -1327,9 +1211,7 @@
       "compare_at_price": null,
       "sales_count": 0,
       "category": "detangling",
-      "hair_type": [
-        "all hair types"
-      ],
+      "hair_type": ["all hair types"],
       "description": "The Tangle Teezer Everyday Detangling Spray with Wheat Protein is designed to effortlessly detangle hair while nourishing with wheat protein. Its lightweight formula smooths and strengthens, reducing breakage and adding shine for all hair types.",
       "variants": [
         {
@@ -1349,9 +1231,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Spray_PDPs_0000_Spray_PDPs__0012_2024-07-08_-_TT_UK_-_Spray_Bottle_PDP_Images0074.jpg?v=1726579474&width=550",
       "age": "new",
       "best_selling": true,
-      "colors": [
-        "clear"
-      ]
+      "colors": ["clear"]
     },
     {
       "id": 22,
@@ -1362,10 +1242,7 @@
       "compare_at_price": null,
       "sales_count": 0,
       "category": "detangling",
-      "hair_type": [
-        "thick",
-        "curly"
-      ],
+      "hair_type": ["thick", "curly"],
       "description": "The Tangle Teezer Everyday Detangling Spray with Shea Butter is formulated for thick and curly hair, providing deep nourishment and effortless detangling. Its rich, moisturizing formula smooths knots and enhances manageability, leaving hair soft and shiny.",
       "variants": [
         {
@@ -1385,9 +1262,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/DetanglingSpray_0000s_0001s_0000_ThickCurlyDetanglingSpray_Back.jpg?v=1707850202&width=550",
       "age": "new",
       "best_selling": true,
-      "colors": [
-        "clear"
-      ]
+      "colors": ["clear"]
     },
     {
       "id": 23,
@@ -1398,9 +1273,7 @@
       "compare_at_price": null,
       "sales_count": 0,
       "category": "styling",
-      "hair_type": [
-        "all hair types"
-      ],
+      "hair_type": ["all hair types"],
       "description": "The Tangle Teezer Fine Mist Spray Bottle is perfect for evenly distributing water or styling products. Its fine mist ensures gentle application, ideal for detangling or refreshing hair without soaking. Lightweight at 108g, it’s a must-have for styling routines.",
       "variants": [
         {
@@ -1420,9 +1293,7 @@
       "second_image": "https://tangleteezer.com/cdn/shop/files/Spraybottle_0001s_0001_FineMistSprayBottle_Pink_2Frame.jpg?v=1706198817&width=550",
       "age": "new",
       "best_selling": false,
-      "colors": [
-        "pink"
-      ]
+      "colors": ["pink"]
     }
   ],
   "signUp": [
@@ -1436,17 +1307,5 @@
       "id": 1
     }
   ],
-  "cart": [
-    {
-      "productId": 4,
-      "name": "The Original Fine & Fragile",
-      "variant": "Pink Dawn",
-      "img": "https://tangleteezer.com/cdn/shop/files/Original_0000s_0000s_0002s_0007_OriginalF_FPinkDawn1.jpg?v=1707839946",
-      "price": 15,
-      "description": "The Original Fine & Fragile Tangle Teezer is crafted for delicate, color-treated, or fine hair. Its softer, flexible teeth detangle gently to prevent breakage and split ends, delivering a smooth, healthy finish. At 73g, this lightweight brush is perfect for gentle daily care.",
-      "qty": 1,
-      "totalPrice": 15,
-      "id": 5
-    }
-  ]
+  "cart": []
 }
