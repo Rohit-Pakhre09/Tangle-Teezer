@@ -125,7 +125,7 @@ function typeEffect() {
 typeEffect();
 
 // Fetching data.
-const url = "http://localhost:3000/items";
+const url = "https://angle-be.onrender.com/items";
 async function fetchingdata() {
   const res = await fetch(url);
   const data = await res.json();
@@ -200,7 +200,7 @@ function updateCartCountDisplay(count) {
 // Fetch cart and update display
 async function updateCartCount() {
   try {
-    const res = await fetch("http://localhost:3000/cart");
+    const res = await fetch("https://angle-be.onrender.com/cart");
     const cartItems = await res.json();
     updateCartCountDisplay(cartItems.length);
   } catch (error) {
@@ -221,7 +221,7 @@ container.addEventListener("click", async (e) => {
     try {
       // Fetch product
       const productRes = await fetch(
-        `http://localhost:3000/items/${productId}`
+        `https://angle-be.onrender.com/items/${productId}`
       );
       const product = await productRes.json();
 
